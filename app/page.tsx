@@ -14,7 +14,7 @@ export default function Home() {
     <div className="flex justify-between gap-[1%]">
       <div className="w-[80%]">
         <NavBar />
-        <div className="w-[98%] mt-2">
+        <div className="w-[98%] mt-2 pt-6">
           <Hero />
           <Nft />
           <Job />
