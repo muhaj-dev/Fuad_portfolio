@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const Hero = () => {
   return (
-    <div className="mt-5">
+    <div className="">
       <div className="flex justify-between">
         <p className="text-[200%]">View Fuad live as</p>
         <button className="flex gap-2  items-center text-light_blue ">

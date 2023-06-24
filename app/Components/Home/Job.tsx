@@ -22,19 +22,19 @@ export const Job = () => {
         />
         <p className="text-[#068C95] text-[26px] font-[600]">Job Experience</p>
       </div>
-      <div className="mt-3 w-[97%] mx-auto flex gap-[4.5%] flex-wrap">
+      <div className="mt-3 w-[97%] mx-auto flex gap-[5%] flex-wrap">
         <div className="mt-4 ">
           <div className="flex justify-between items-center">
-            <p className="py-1.5 pl-2.5 pr-7 text-[16px] font-[500] rounded-tr-[40px] bg-blue">
+            <p className="py-1.5 pl-2 pr-[1.45rem] text-[14px] font-[500] rounded-tr-[40px] bg-blue">
               Recent
             </p>
-            <p className=" text-[16px] font-[500]">june 1</p>
+            <p className=" text-[12px] font-[500]">june 1</p>
           </div>
           <Image
             src={vahalla}
             className=" "
             alt="lang"
-            width={170}
+            width={140}
             height={65}
             priority
           />
@@ -48,16 +48,16 @@ export const Job = () => {
         </div>
         <div className="mt-4 ">
           <div className="flex justify-between items-center">
-            <p className="py-1.5 pl-2.5 pr-7 text-[16px] font-[500] rounded-tr-[40px] bg-blue">
+            <p className="py-1.5 pl-2 pr-[1.45rem] text-[14px] font-[500] rounded-tr-[40px] bg-blue">
               Recent
             </p>
-            <p className=" text-[16px] font-[500]">March 12</p>
+            <p className=" text-[12px] font-[500]">March 12</p>
           </div>
           <Image
             src={listo}
             className=" "
             alt="lang"
-            width={170}
+            width={140}
             height={65}
             priority
           />
@@ -71,16 +71,16 @@ export const Job = () => {
         </div>
         <div className="mt-4 ">
           <div className="flex justify-between items-center">
-            <p className="py-1.5 pl-2.5 pr-7 text-[16px] font-[500] rounded-tr-[40px] bg-blue">
+            <p className="py-1.5 pl-2 pr-[1.45rem] text-[14px] font-[500] rounded-tr-[40px] bg-blue">
               Recent
             </p>
-            <p className=" text-[16px] font-[500]">2022</p>
+            <p className=" text-[12px] font-[500]">2022</p>
           </div>
           <Image
             src={bibox}
             className=" "
             alt="lang"
-            width={170}
+            width={140}
             height={65}
             priority
           />
@@ -94,16 +94,16 @@ export const Job = () => {
         </div>
         <div className="mt-4 ">
           <div className="flex justify-between items-center">
-            <p className="py-1.5 pl-2.5 pr-7 text-[16px] font-[500] rounded-tr-[40px] bg-blue">
+            <p className="py-1.5 pl-2 pr-[1.45rem] text-[14px] font-[500] rounded-tr-[40px] bg-blue">
               Recent
             </p>
-            <p className=" text-[16px] font-[500]">2022</p>
+            <p className=" text-[12px] font-[500]">2022</p>
           </div>
           <Image
             src={think}
             className=" "
             alt="lang"
-            width={170}
+            width={140}
             height={65}
             priority
           />
@@ -117,16 +117,16 @@ export const Job = () => {
         </div>
         <div className="mt-4 ">
           <div className="flex justify-between items-center">
-            <p className="py-1.5 pl-2.5 pr-7 text-[16px] font-[500] rounded-tr-[40px] bg-blue">
+            <p className="py-1.5 pl-2 pr-[1.45rem] text-[14px] font-[500] rounded-tr-[40px] bg-blue">
               Recent
             </p>
-            <p className=" text-[16px] font-[500]">2022</p>
+            <p className=" text-[12px] font-[500]">2022</p>
           </div>
           <Image
             src={inge}
             className=" "
             alt="lang"
-            width={170}
+            width={140}
             height={65}
             priority
           />
