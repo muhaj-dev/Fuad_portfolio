@@ -2,10 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +31,33 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    background-color: #0B0E21;
+}
+
+.profile2{
+  background: linear-gradient(211.09deg, #6421FD 18.71%, rgba(181, 19, 242, 0.5) 53.27%);
+}
+
+.profile3 {
+  background-image: url('../public//img/profile3.svg');
+  background-position: contain;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.job{
+  background: linear-gradient(180deg, #3561FF 0%, #8453EA 100%),
+  linear-gradient(0deg, #18C1FC, #18C1FC);
+}
+.blur_bg {
+  background-color: rgba(3, 3, 3, 0.3);
+  backdrop-filter: blur(3px) saturate(70%) contrast(150%);
+}
+
+.blur_btn {
+  background-color: rgba(37, 37, 37, 0.5);
+  /* backdrop-filter: blur(6px) saturate(40%) contrast(150%); */
+}
+
+.raduis {
+  border-radius: 0px, 50px, 0px, 0px;
 }
