@@ -23,7 +23,7 @@ export const Job = () => {
         <p className="text-[#068C95] text-[26px] font-[600]">Job Experience</p>
       </div>
       <div className="mt-3 w-[97%] mx-auto flex gap-[4.5%] flex-wrap">
-        <div className="">
+        <div className="mt-4 ">
           <div className="flex justify-between items-center">
             <p className="py-1.5 pl-2.5 pr-7 text-[16px] font-[500] rounded-tr-[40px] bg-blue">
               Recent
@@ -46,7 +46,7 @@ export const Job = () => {
             <AiOutlineArrowRight className="text-light_blue ml-auto w-[30px] h-[20px] font-bold" />
           </div>
         </div>
-        <div className="">
+        <div className="mt-4 ">
           <div className="flex justify-between items-center">
             <p className="py-1.5 pl-2.5 pr-7 text-[16px] font-[500] rounded-tr-[40px] bg-blue">
               Recent
@@ -69,7 +69,7 @@ export const Job = () => {
             <AiOutlineArrowRight className="text-light_blue ml-auto w-[30px] h-[20px] font-bold" />
           </div>
         </div>
-        <div className="">
+        <div className="mt-4 ">
           <div className="flex justify-between items-center">
             <p className="py-1.5 pl-2.5 pr-7 text-[16px] font-[500] rounded-tr-[40px] bg-blue">
               Recent
@@ -92,7 +92,7 @@ export const Job = () => {
             <AiOutlineArrowRight className="text-light_blue ml-auto w-[30px] h-[20px] font-bold" />
           </div>
         </div>
-        <div className="">
+        <div className="mt-4 ">
           <div className="flex justify-between items-center">
             <p className="py-1.5 pl-2.5 pr-7 text-[16px] font-[500] rounded-tr-[40px] bg-blue">
               Recent
@@ -115,7 +115,7 @@ export const Job = () => {
             <AiOutlineArrowRight className="text-light_blue ml-auto w-[30px] h-[20px] font-bold" />
           </div>
         </div>
-        <div className="">
+        <div className="mt-4 ">
           <div className="flex justify-between items-center">
             <p className="py-1.5 pl-2.5 pr-7 text-[16px] font-[500] rounded-tr-[40px] bg-blue">
               Recent
