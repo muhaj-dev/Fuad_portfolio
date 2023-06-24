@@ -15,8 +15,8 @@ export const Hero = () => {
           <TbMathGreater />
         </button>
       </div>
-      <div className="mt-4 flex justify-between">
-        <div className="relative w-[48%] h-[250px] profile2 rounded-lg">
+      <div className="mt-4 flex flex-wrap gap-y-6 justify-between">
+        <div className="relative w-full laptop:w-[48%] h-[250px] profile2 rounded-lg">
           <Image
             src={profile2}
             className=" mx-auto "
@@ -50,7 +50,7 @@ export const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="relative w-[48%] h-[250px] profile3 rounded-lg">
+        <div className="relative w-full laptop:w-[48%] h-[250px] profile3 rounded-lg">
           <div className="blur_bg absolute py-3 bottom-4 left-4 w-[65%] laptop:w-[250px]  text-sm border- border- rounded-lg">
             <div className="w-[75%] mx-auto mb-2.5">
               <p className="font-semibold text-[16px] mb-1">UI/UX Designer</p>
