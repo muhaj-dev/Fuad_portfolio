@@ -33,7 +33,7 @@ const NavLink = ({ path, text, className, ...props }: Props) => {
             !className
               ? `${
                   pathname == path
-                    ? "h-[40px] absolute right-0 -top-[3px] w-1 bg-[#FC1818] rounded-sm "
+                    ? "h-[40px] absolute right-0 -top-[3px] w-[2px] bg-[#FC1818] rounded-sm "
                     : " bg-transparent"
                 } absolute`
               : className
@@ -44,7 +44,7 @@ const NavLink = ({ path, text, className, ...props }: Props) => {
           className="mx-auto"
           alt="lang"
           key={path}
-          width={14}
+          width={12}
           height={12}
           //   priority
         />

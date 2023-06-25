@@ -5,6 +5,7 @@ import { Iceland, Inter } from "next/font/google";
 import { Iceberg } from "next/font/google";
 import sect from "../public/img/sect.svg";
 import { Profile } from "./Components/Home/Profile";
+import { NavBar } from "./Components/Nav/NavBar";
 const inter = Inter({ subsets: ["latin"] });
 const iceberg = Iceland({
   subsets: ["latin"],
@@ -12,8 +13,8 @@ const iceberg = Iceland({
 });
 
 export const metadata = {
-  title: "Crypto Lead",
-  description: "Home page for cryptoLead's portfolio",
+  title: "fuadoluwaniyi",
+  description: "Home page of fuadoluwaniyi's portfolio",
 };
 
 export default function RootLayout({
@@ -29,7 +30,12 @@ export default function RootLayout({
             <div className="relative w-[50px]">
               <Side />
             </div>
-            <div className="w-full">{children}</div>
+            <div className="w-full  bg-[#0B0E21]">
+              <div className="sticky z-50 top-3 w-full bg-primary">
+                  <NavBar />
+              </div>
+              {children}
+            </div>
             <div className=" relative w-[340px] right-3">
               <Profile />
             </div>

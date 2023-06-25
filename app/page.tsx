@@ -12,8 +12,7 @@ export default function Home() {
   return (
     <div className="flex justify-center w-full">
       <div className="relative w-full ">
-        <NavBar />
-        <div className="w-[98%] mt-16">
+        <div className="w-[98%] mt-8 z-10">
           <Hero />
           <Nft />
           <Job />
