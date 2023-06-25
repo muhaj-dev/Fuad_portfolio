@@ -21,14 +21,14 @@ export const NavBar = () => {
           </span>
         </p>
       </div>
-      <div className="my-auto flex items-center justify-between px-4 gap-7 ">
+      <div className="my-auto flex items-center justify-between px-4 gap-8 ">
         <Link href="/" className="h-fit my-auto">
           <Image
             src={twi}
             className="my-auto  "
             alt="lang"
-            width={15}
-            height={15}
+            width={18}
+            height={18}
             priority
           />
         </Link>
@@ -37,8 +37,8 @@ export const NavBar = () => {
             src={discord}
             className="my-auto  "
             alt="lang"
-            width={15}
-            height={15}
+            width={18}
+            height={18}
             priority
           />
         </Link>
@@ -47,8 +47,8 @@ export const NavBar = () => {
             src={iinsta}
             className="my-auto  "
             alt="lang"
-            width={15}
-            height={15}
+            width={18}
+            height={18}
             priority
           />
         </Link>
@@ -57,8 +57,8 @@ export const NavBar = () => {
             src={link}
             className="my-auto  "
             alt="lang"
-            width={15}
-            height={15}
+            width={18}
+            height={18}
             priority
           />
         </Link>
@@ -67,8 +67,8 @@ export const NavBar = () => {
             src={you}
             className="my-auto  "
             alt="lang"
-            width={15}
-            height={15}
+            width={18}
+            height={18}
             priority
           />
         </Link>
@@ -77,12 +77,12 @@ export const NavBar = () => {
             src={whats}
             className="my-auto  "
             alt="lang"
-            width={15}
-            height={15}
+            width={18}
+            height={18}
             priority
           />
         </Link>
-        <div className="text-[12px] hidden desktop:block bg-blue py-3 px-2 border-[1px] border-light_blue rounded-md">
+        <div className="text-[12px] text-center w-[125px] hidden desktop:block bg-blue py-3 px-3 border-[1px] border-light_blue rounded-md">
           Buy Me a coffee
         </div>
       </div>
@@ -98,7 +98,7 @@ export const NavBar = () => {
           height={45}
           priority
         />
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-3 items-center">
           <div className="flex flex-col ">
             <p className="text-[14px]">Fuad Oluwaniyi</p>
             <p className="text-[grey] -mt-1 text-[12px]">
