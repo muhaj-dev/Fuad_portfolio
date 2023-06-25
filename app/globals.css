@@ -62,6 +62,11 @@ body {
 
   /* border-image-source: linear-gradient(180deg, #3561FF 0%, #8453EA 100%);  */
 }
+.b_cl{
+  background: linear-gradient(91.11deg, #3561FF 15.5%, #8453EA 70.27%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 .b_c{
   background: linear-gradient(214.91deg, #6CEDD1 45.22%, #DEF88D 72.14%);
 }

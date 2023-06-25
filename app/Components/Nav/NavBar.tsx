@@ -7,6 +7,7 @@ import link from "../../../public/img/link.svg";
 import you from "../../../public/img/you.svg";
 import whats from "../../../public/img/whats.svg";
 import fuad from "../../../public/img/fuad.svg";
+import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 import Image from "next/image";
 
 export const NavBar = () => {
@@ -97,19 +98,12 @@ export const NavBar = () => {
             height={55}
             priority
           />
-          <div className="flex gap-2">
+          <div className="flex gap-2 items-center">
             <div className="flex flex-col ">
               <p className="text-[16px]">Fuad Oluwaniyi</p>
               <p className="text-[grey] -mt-1 text-sm">fuadoluwaniyi@gmail.com</p>
             </div>
-            <Image
-            src={fuad}
-            className="my-auto  "
-            alt="lang"
-            width={15}
-            height={20}
-            priority
-          />
+           <MdOutlineKeyboardArrowDown  />
           </div>
         </div>
       </div>

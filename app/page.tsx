@@ -20,7 +20,7 @@ export default function Home() {
           <Job />
         </div>
       </div>
-      <div className="w-[17%] mr-auto h-[70vh] bg-primary border-light_blue border-[2px] rounded-lg">
+      <div className="w-[17%] mr-auto bg-primary border-light_blue border-[2px] rounded-lg">
         <Profile />
       </div>
     </div>
