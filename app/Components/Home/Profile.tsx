@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export const Profile = () => {
   return (
-    <div className="fixed w-[265px] h-[97vh] right-2 bg-primary border-light_blue border-[2px] rounded-lg">
+    <div className="fixed w-[265px] h-[97vh] max-h-[710px]  bg-primary border-light_blue border-[2px] rounded-lg">
       <p className=" text-center text-[22px] font-bold mt-2">My Profile</p>
       <div className="relative overflow-hidden mt-2">
         <div className="b_gradient rounded-full w-fit mt-2 p-[2px] mx-auto">

@@ -30,7 +30,7 @@ export default function RootLayout({
               <Side />
             </div>
             <div className="w-full">{children}</div>
-            <div className=" relative w-[340px]">
+            <div className=" relative w-[340px] right-3">
               <Profile />
             </div>
           </div>
