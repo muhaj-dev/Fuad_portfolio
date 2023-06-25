@@ -41,7 +41,7 @@ export const Job = () => {
           <div className="flex items-center">
             <div className="mt-2">
               <p className="text-[12px] font-[500]">888valhalla</p>
-              <p className="text-t_blue text-[10px] font-[500]">cardona</p>
+              <p className="text-t_blue text-[10px] font-[500]">community manager</p>
             </div>
             <AiOutlineArrowRight className="text-light_blue ml-auto w-[20px] h-[15px] font-bold" />
           </div>
@@ -63,8 +63,8 @@ export const Job = () => {
           />
           <div className="flex items-center">
             <div className="mt-2">
-              <p className="text-[12px] font-[500]">888valhalla</p>
-              <p className="text-t_blue text-[10px] font-[500]">cardona</p>
+              <p className="text-[12px] font-[500]">Listoxio</p>
+              <p className="text-t_blue text-[10px] font-[500]">community manager</p>
             </div>
             <AiOutlineArrowRight className="text-light_blue ml-auto w-[20px] h-[15px] font-bold" />
           </div>
@@ -86,8 +86,8 @@ export const Job = () => {
           />
           <div className="flex items-center">
             <div className="mt-2">
-              <p className="text-[12px] font-[500]">888valhalla</p>
-              <p className="text-t_blue text-[10px] font-[500]">cardona</p>
+              <p className="text-[12px] font-[500]">Bibox Exchange</p>
+              <p className="text-t_blue text-[10px] font-[500]">moderator</p>
             </div>
             <AiOutlineArrowRight className="text-light_blue ml-auto w-[20px] h-[15px] font-bold" />
           </div>
@@ -109,8 +109,8 @@ export const Job = () => {
           />
           <div className="flex items-center">
             <div className="mt-2">
-              <p className="text-[12px] font-[500]">888valhalla</p>
-              <p className="text-t_blue text-[10px] font-[500]">cardona</p>
+              <p className="text-[12px] font-[500]">Thinkin.xyz</p>
+              <p className="text-t_blue text-[10px] font-[500]">Ambassador</p>
             </div>
             <AiOutlineArrowRight className="text-light_blue ml-auto w-[20px] h-[15px] font-bold" />
           </div>
@@ -132,8 +132,8 @@ export const Job = () => {
           />
           <div className="flex items-center">
             <div className="mt-2">
-              <p className="text-[12px] font-[500]">888valhalla</p>
-              <p className="text-t_blue text-[10px] font-[500]">cardona</p>
+              <p className="text-[12px] font-[500]">Invigorate DAO</p>
+              <p className="text-t_blue text-[10px] font-[500]">moderator</p>
             </div>
             <AiOutlineArrowRight className="text-light_blue ml-auto w-[20px] h-[15px] font-bold" />
           </div>
