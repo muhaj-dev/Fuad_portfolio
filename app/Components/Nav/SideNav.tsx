@@ -53,24 +53,24 @@ const links2 = [
 
 export const Side = () => {
   return (
-    <div className="flex flex-col h-full  w-full">
+    <div className="fixed flex flex-col w-[38px]  h-[94vh] max-h-[890px] py-5 bg-primary rounded-[10px]">
       <Link href='/'>
         <Image
           src={sect}
           className="mx-auto mb-2 "
           alt="lang"
-          width={30}
-          height={40}
+          width={20}
+          height={20}
             priority
         />
       </Link>
-      <div className="hidden md:flex flex-col justify-between items-center space-y-5 my-5">
+      <div className="hidden md:flex flex-col justify-between items-center space-y-4 my-5">
         {links.map((link, index) => (
           <NavLink key={index} {...link} />
         ))}
       </div>
       <hr className="h-[3px] bg-light_blue w-[90%] mx-auto my-5"/>
-      <div className="hidden md:flex flex-col justify-between items-center space-y-5">
+      <div className="hidden md:flex flex-col justify-between items-center space-y-4">
         {links2.map((link, index) => (
           <NavLink key={index} {...link} />
         ))}

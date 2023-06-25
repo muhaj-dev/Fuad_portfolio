@@ -39,28 +39,12 @@ body {
 }
 
 .b_gradient {
-  background: linear-gradient(180deg, #3561FF 0%, #8453EA 100%);
-  /* border-image: linear-gradient(180deg, #3561FF 0%, #8453EA 100%); */
-  /* border-width: 4px; */
-  /* border-style: solid; */
-  /* border-radius: 50%; */
-  /* border: 16px solid transparent;
-  border-image: linear-gradient(180deg, #3561FF 0%, #8453EA 100%);
-  border-image-slice: 1;
-  height: 150px;
-  width: 150px;
-  border-radius: 50px; */
-  
+  background: linear-gradient(180deg, #3561FF 0%, #8453EA 100%); 
 }
 .bor_r {
   background: linear-gradient(180deg, #3561FF 0%, #8453EA 100%);
-  padding: 2px;
-  border-radius: 6px;
-
-  /* border: 2px solid; */
-  /* max-width: 250px;
-
-  /* border-image-source: linear-gradient(180deg, #3561FF 0%, #8453EA 100%);  */
+  padding: 1.5px;
+  border-radius: 4px;
 }
 .b_cl{
   background: linear-gradient(91.11deg, #3561FF 15.5%, #8453EA 70.27%);
@@ -91,7 +75,6 @@ body {
 
 .blur_btn {
   background-color: rgba(37, 37, 37, 0.5);
-  /* backdrop-filter: blur(6px) saturate(40%) contrast(150%); */
 }
 
 .raduis {

@@ -10,62 +10,69 @@ import Image from "next/image";
 
 export const Profile = () => {
   return (
-    <div>
-      <p className="text-center text-[30px] font-bold mt-5">My Profile</p>
+    <div className="fixed w-[265px] h-[97vh] right-2 bg-primary border-light_blue border-[2px] rounded-lg">
+      <p className=" text-center text-[22px] font-bold mt-2">My Profile</p>
       <div className="relative overflow-hidden mt-2">
-        <div className="b_gradient rounded-full w-fit mt-4 p-[2px] mx-auto">
+        <div className="b_gradient rounded-full w-fit mt-2 p-[2px] mx-auto">
           <Image
             src={fuad}
-            className="mx-auto rounded-full p-1 z-20 bg-primary"
+            className="mx-auto rounded-full p-[1px] z-20 bg-primary"
             alt="lang"
-            width={90}
-            height={90}
+            width={70}
+            height={80}
             priority
           />
         </div>
-        <p className="font-[500] text-[20px] text-center mt-6 z-40">
+        <p className="font-[500] text-[18px] text-center mt-2 z-20">
           Fuad Oluwaniyi
         </p>
         <div className="z-10">
-          <div className="absolute top-0 -left-[15%] rounded-full w-[60px] h-[60px] bg-[#EA7EE3]" />
-          <div className="absolute -top-0 -right-[12%] rounded-full w-[50px] h-[50px] bg-[#3DDECF]" />
-          <div className="absolute bottom-7 -right-[10%] opacity-10 rounded-full w-[60px] h-[60px] b_c" />
-          <div className="absolute bottom-24 right-[10%] opacity-20 rounded-full w-[40px] h-[40px] b_o" />
+          <div className="absolute top-0 -left-[12%] rounded-full w-[50px] h-[50px] bg-[#EA7EE3]" />
+          <div className="absolute -top-0 -right-[8%] rounded-full w-[40px] h-[40px] bg-[#3DDECF]" />
+          <div className="absolute bottom-7 -right-[6%] opacity-10 rounded-full w-[45px] h-[45px] b_c" />
+          <div className="absolute -top-0 right-[10%] opacity-20 rounded-full w-[30px] h-[30px] b_o" />
           {/* <div className="absolute bottom-24 right-[10%] opacity-20 rounded-full w-[10px] h-[10px] b_o"  /> */}
-          <div className="absolute bottom-10 -right-[12%] rounded-full w-[60px] h-[60px] b_o" />
-          <div className="absolute -top-0 right-[30%] rounded-full w-[12px] h-[12px] bg-[#3DDECF]" />
-          <div className="absolute top-2 left-[3%] opacity-10 rounded-full w-[60px] h-[60px] bg-[#EA7EE3]" />
-          <div className="absolute z-10 bottom-0 -left-[20%] rounded-full w-[80px] h-[80px] b_c" />
-          <div className="absolute z-10 bottom-12 left-[15%] opacity-70  rounded-full w-[15px] h-[15px] bg-[#EA7EE3]" />
-          <div className="absolute bottom-3 -left-[8%] opacity-10 rounded-full w-[75px] h-[75px] b_c" />
+          <div className="absolute bottom-6 -right-[10%] rounded-full w-[45px] h-[45px] b_o" />
+          <div className="absolute -top-0 right-[32%] rounded-full w-[10px] h-[10px] bg-[#3DDECF]" />
+          <div className="absolute top-2 -left-[2%] opacity-10 rounded-full w-[50px] h-[50px] bg-[#EA7EE3]" />
+          <div className="absolute z-10 bottom-0 -left-[12%] rounded-full w-[60px] h-[60px] b_c" />
+          <div className="absolute z-10 bottom-12 left-[10%] opacity-50  rounded-full w-[8px] h-[8px] bg-[#EA7EE3]" />
+          <div className="absolute bottom-1 -left-[6%] opacity-10 rounded-full w-[60px] h-[60px] b_c" />
         </div>
       </div>
-      <div className="w-[90%] mx-auto mt-5">
-        <div className="mt-4 flex flex-wrap gap-3 justify-center mx-auto ">
+      <div className="w-[92%] mx-auto mt-3">
+        <div className="flex flex-wrap gap-3 justify-between mx-auto ">
           <div className="w-fit h-fit">
             <div className="bor_r">
-              <p className="bg-primary rounded-[4px] px-3 py-1"> 1b+</p>
+              <p className="bg-primary rounded-[4px] text-[12px] text-center py-1"> 1b+</p>
             </div>
-            <p className="text-center mt-2 text-sm text-[#D9D9D9]">Wikicat</p>
+            <p className="text-center mt-2 text-[12px] text-[#D9D9D9]">Wikicat</p>
           </div>
           <div className="w-fit h-fit">
             <div className="bor_r">
-              <p className="bg-primary rounded-[4px] px-3 py-1"> 1b+</p>
+              <p className="bg-primary rounded-[4px] text-[12px] text-center py-1"> 1b+</p>
             </div>
-            <p className="text-center mt-2 text-sm text-[#D9D9D9]">Wikicat</p>
+            <p className="text-center mt-2 text-[12px] text-[#D9D9D9]">Wikicat</p>
           </div>
           <div className="w-fit h-fit">
             <div className="bor_r">
-              <p className="bg-primary rounded-[4px] px-3 py-1"> 1b+</p>
+              <p className="bg-primary rounded-[4px] text-[12px] text-center py-1"> 1b+</p>
             </div>
-            <p className="text-center mt-2 text-sm text-[#D9D9D9]">Wikicat</p>
+            <p className="text-center mt-2 text-[12px] text-[#D9D9D9]">Wikicat</p>
           </div>
+          <div className="w-fit h-fit">
+            <div className="bor_r">
+              <p className="bg-primary rounded-[4px] text-[12px] text-center py-1"> 1b+</p>
+            </div>
+            <p className="text-center mt-2 text-[12px] text-[#D9D9D9]">Wikicat</p>
+          </div>
+         
         </div>
 
-        <div className="my-5">
-          <p className="text-[20px] font-[500]">Status</p>
-          <div className="flex p-2 justify-between border-[2px] mt-2 rounded-md border-[#494F99] ">
-            <div className="flex items-center gap-1.5">
+        <div className="my-2">
+          <p className="text-[16px] font-[500]">Status</p>
+          <div className="flex p-2 justify-between border-[2px] mt-1 rounded-md border-[#494F99] ">
+            <div className="flex items-center gap-1">
               <Image
                 src={twitter}
                 className="mx-auto rounded-full p-1 z-20 bg-primary"
@@ -74,9 +81,9 @@ export const Profile = () => {
                 height={20}
                 priority
               />
-              <p className="text-sm">open to work</p>
+              <p className="text-[12px]">open to work</p>
             </div>
-            <button className="text-[#D9D9D9] text-sm flex gap-1 items-center">
+            <button className="text-[#D9D9D9] text-[12px] flex gap-1 items-center">
               hire
               <TbMathGreater className="text-light_blue w-[10px]" />
             </button>
@@ -85,26 +92,26 @@ export const Profile = () => {
 
         <div>
           <div className="flex justify-between items-center">
-            <p className="text-[20px] font-[500]">Impression</p>
-            <button className="text-[#D9D9D9] text-sm flex gap-1 items-center">
+            <p className="text-[16px] font-[500]">Impression</p>
+            <button className="text-[#D9D9D9] text-[12px] flex gap-1 items-center">
               this month
               <MdOutlineKeyboardArrowDown className="text-light_blue" />
             </button>
           </div>
-          <div className="flex p-2 h-[200px] justify-between border-[2px] mt-2 rounded-md border-[#494F99] ">
+          <div className="flex p-2 h-[180px] justify-between border-[2px] mt-1 rounded-md border-[#494F99] ">
             {/* Bar Charts position */}
           </div>
         </div>
 
-        <div>
-          <div className="flex justify-between items-center mt-5">
-            <p className="text-[20px] font-[500]">Eecent Activiy</p>
-            <button className="text-[#D9D9D9] text-sm flex gap-1 items-center">
+        <div className="my-2">
+          <div className="flex justify-between items-center">
+            <p className="text-[16px] font-[500]">Eecent Activiy</p>
+            <button className="text-[#D9D9D9] text-[12px] flex gap-1 items-center">
               See All
               <TbMathGreater className="text-light_blue w-[10px] h-[25px]" />
             </button>
           </div>
-          <div className="flex p-2 justify-between items-center mt-3 rounded-lg bg-[#212761] ">
+          <div className="flex p-2 justify-between items-center mt-1 rounded-lg bg-[#212761] ">
             <div className="flex items-center gap-1.5">
               <Image
                 src={monkey}
@@ -115,7 +122,7 @@ export const Profile = () => {
                 priority
               />
               <div className="h-fit">
-                <p className="text-[12px] font-[500]  mb-2">Story about buy...</p>
+                <p className="text-[12px] font-[500]  mb-1">Story about buy...</p>
                 <p className="text-[10px] b_cl">by cryptolead_</p>
               </div>
             </div>
@@ -128,7 +135,7 @@ export const Profile = () => {
                height={10}
                priority
               />
-              <p className=" text-[10px] mt-2">3min ago</p>
+              <p className=" text-[10px] mt-1">3min ago</p>
             </div>
           </div>
           <div className="flex p-2 justify-between items-center mt-3 rounded-lg bg-[#212761] ">
@@ -142,8 +149,8 @@ export const Profile = () => {
                 priority
               />
               <div className="h-fit">
-                <p className="text-[12px] font-[500]  mb-2">Forrest Jump App</p>
-                <p className="text-[10px] b_cl">by cryptolead_</p>
+                <p className="text-[12px] font-[500]  mb-1">Forrest Jump App</p>
+                <p className="text-[10px] font-[500] b_cl">by cryptolead_</p>
               </div>
             </div>
             <div className="flex flex-col text-[#D9D9D9] items-center">
@@ -155,7 +162,7 @@ export const Profile = () => {
                height={10}
                priority
               />
-              <p className=" text-[10px] mt-2">3min ago</p>
+              <p className=" text-[10px] mt-1">3min ago</p>
             </div>
           </div>
         </div>

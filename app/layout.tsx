@@ -3,7 +3,8 @@ import { Side } from "./Components/Nav/SideNav";
 import "./globals.css";
 import { Iceland, Inter } from "next/font/google";
 import { Iceberg } from "next/font/google";
-import sect from '../public/img/sect.svg'
+import sect from "../public/img/sect.svg";
+import { Profile } from "./Components/Home/Profile";
 const inter = Inter({ subsets: ["latin"] });
 const iceberg = Iceland({
   subsets: ["latin"],
@@ -22,17 +23,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/* <Head>
-        <link rel="icon" href="/favicon/favicon.ico" />
-      </Head> */}
       <body className={inter.className}>
-        <div className="w-[100vw] bg-[#0B0E21] h-fit">
-          <div className="flex flex-row w-[100vw] max-w-[1600px] mx-auto justify-between py-[1%] px-[0.5%]">
-            <div className="fixed w-[3%] h-[94vh] max-h-[890px] py-5 bg-primary rounded-[10px]">
+        <div className="bg-[#0B0E21] h-fit">
+          <div className="flex flex-row max-w-[1600px] mx-auto gap-4  py-3 px-2">
+            <div className="relative w-[50px]">
               <Side />
             </div>
-            <div className="w-[3%] " />
-            <div className="w-[96%] ">{children}</div>
+            <div className="w-full">{children}</div>
+            <div className=" relative w-[340px]">
+              <Profile />
+            </div>
           </div>
         </div>
       </body>

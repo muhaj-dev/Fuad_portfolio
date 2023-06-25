@@ -10,8 +10,8 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 export const Job = () => {
   return (
-    <div className="my-8">
-      <div className="flex gap-3">
+    <div className="my-4">
+      <div className="flex gap-2">
         <Image
           src={fire}
           className=" "
@@ -20,9 +20,9 @@ export const Job = () => {
           height={25}
           priority
         />
-        <p className="text-[#068C95] text-[26px] font-[600]">Job Experience</p>
+        <p className="text-[#068C95] text-[24px] font-[600]">Job Experience</p>
       </div>
-      <div className="mt-3 w-[97%] mx-auto flex gap-[4%] flex-wrap">
+      <div className="w-[97%] mx-auto flex gap-[4%] flex-wrap">
         <div className="mt-4 ">
           <div className="flex justify-between items-center">
             <p className="py-1.5 pl-2 pr-[1.45rem] text-[14px] font-[500] rounded-tr-[40px] bg-blue">

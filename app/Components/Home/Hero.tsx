@@ -9,19 +9,19 @@ export const Hero = () => {
   return (
     <div className="">
       <div className="flex justify-between">
-        <p className="text-[200%]">View Fuad live as</p>
-        <button className="flex gap-2  items-center text-light_blue ">
+        <p className="text-[30px]">View Fuad live as</p>
+        <button className="flex gap-2 text-sm items-center text-light_blue ">
           Show less
-          <TbMathGreater />
+          <TbMathGreater className="w-[14px]" />
         </button>
       </div>
-      <div className="mt-4 flex flex-wrap gap-y-6 justify-between">
-        <div className="relative w-full laptop:w-[48%] h-[250px] profile2 rounded-lg">
+      <div className="mt-2 flex flex-wrap gap-y-6 justify-between">
+        <div className="relative w-full laptop:w-[48%] h-[240px] profile2 rounded-lg">
           <Image
             src={profile2}
             className=" mx-auto "
             alt="lang"
-            width={243}
+            width={233}
             height={200}
             priority
           />
@@ -50,7 +50,7 @@ export const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="relative w-full laptop:w-[48%] h-[250px] profile3 rounded-lg">
+        <div className="relative w-full laptop:w-[48%] h-[240px] profile3 rounded-lg">
           <div className="blur_bg absolute py-3 bottom-4 left-4 w-[65%] laptop:w-[250px]  text-sm border- border- rounded-lg">
             <div className="w-[75%] mx-auto mb-2.5">
               <p className="font-semibold text-[16px] mb-1">UI/UX Designer</p>
