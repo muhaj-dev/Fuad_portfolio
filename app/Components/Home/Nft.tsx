@@ -22,7 +22,7 @@ export const Nft = () => {
         />
         <p className="text-[#068C95] text-[24px] font-[600]">My NTFs</p>
       </div>
-      <div className=" w-[97%] mx-auto flex gap-16 justify- flex-wrap">
+      <div className=" w-full mx-auto flex gap-16 justify- flex-wrap">
         <div className="flex gap-2 mt-4 items-center">
           <Image
             src={nftpol}

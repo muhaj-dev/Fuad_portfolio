@@ -64,13 +64,13 @@ export const Side = () => {
             priority
         />
       </Link>
-      <div className="hidden md:flex flex-col justify-between items-center space-y-4 my-3">
+      <div className="hidden md:flex flex-col justify-between items-center space-y-5 my-3">
         {links.map((link, index) => (
           <NavLink key={index} {...link} />
         ))}
       </div>
       <div className="h-[2px] bg-light_blue w-[90%] mx-auto mt-3 mb-5"/>
-      <div className="hidden md:flex flex-col justify-between items-center space-y-4">
+      <div className="hidden md:flex flex-col justify-between items-center space-y-5">
         {links2.map((link, index) => (
           <NavLink key={index} {...link} />
         ))}

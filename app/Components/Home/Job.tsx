@@ -22,7 +22,7 @@ export const Job = () => {
         />
         <p className="text-[#068C95] text-[24px] font-[600]">Job Experience</p>
       </div>
-      <div className="w-[97%] mx-auto flex gap-[4.5rem] flex-wrap">
+      <div className="w-full mx-auto flex gap-[4.5rem] flex-wrap">
         <div className="mt-4 ">
           <div className="flex justify-between items-center">
             <p className="py-1.5 pl-2 pr-[1.45rem] text-[12px] font-[500] rounded-tr-[35px] bg-blue">
