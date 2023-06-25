@@ -11,7 +11,7 @@ import { Profile } from "./Components/Home/Profile";
 export default function Home() {
   const [first, setfirst] = useState(true);
   return (
-    <div className="flex justify-between gap-[1%]">
+    <div className="flex justify-center">
       <div className="w-[80%]">
         <NavBar />
         <div className="w-[98%] mt-2 pt-6">
@@ -20,7 +20,7 @@ export default function Home() {
           <Job />
         </div>
       </div>
-      <div className="w-[17%] mr-auto bg-primary border-light_blue border-[2px] rounded-lg">
+      <div className="w-[19%] mr- bg-primary border-light_blue border-[2px] rounded-lg">
         <Profile />
       </div>
     </div>
