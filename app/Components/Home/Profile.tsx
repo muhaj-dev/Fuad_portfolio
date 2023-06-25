@@ -41,7 +41,7 @@ export const Profile = () => {
         </div>
       </div>
       <div className="w-[90%] mx-auto mt-5">
-        <div className="mt-4 flex gap-5 justify-between mx-auto ">
+        <div className="mt-4 flex flex-wrap gap-3 justify-center mx-auto ">
           <div className="w-fit h-fit">
             <div className="bor_r">
               <p className="bg-primary rounded-[4px] px-3 py-1"> 1b+</p>
