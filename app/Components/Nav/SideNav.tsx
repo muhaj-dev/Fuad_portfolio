@@ -53,7 +53,7 @@ const links2 = [
 
 export const Side = () => {
   return (
-    <div className="fixed flex flex-col w-[38px]  h-[94vh] max-h-[890px] py-5 bg-primary rounded-[10px]">
+    <div className="fixed flex flex-col w-[38px]  h-[94vh] max-h-[710px] py-5 bg-primary rounded-[10px]">
       <Link href='/'>
         <Image
           src={sect}
