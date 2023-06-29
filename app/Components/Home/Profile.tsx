@@ -215,7 +215,7 @@ export const Profile = () => {
 
 {!buttonState && (
         <>
-          <div className=" flex laptop:hidden top-0 right-0 left-0 item-center justify-center fixed w-[100vw] h-[100%]">
+          <div className=" flex z-50 laptop:hidden top-0 right-0 left-0 item-center justify-center fixed w-[100vw] h-[100%]">
             <div className="relative w-[16rem] z-10 my-auto h-[97vh] max-h-[720px]  bg-primary border-light_blue border-[2px] rounded-lg">
               <p className=" text-center text-[22px] font-bold mt-2">
                 My Profile

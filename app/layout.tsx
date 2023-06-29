@@ -34,7 +34,7 @@ export default function RootLayout({
                 <Side />
               </div>
               <div className="w-full tablet_l:w-[94rem] laptop:w-[78.5rem]">
-                <div className="hidden tablet_l:block sticky ml-auto laptop:mx-auto z-50 top-3 w-[93%] bg-primary tablet_l:w-[95%] laptop:w-full ">
+                <div className="hidden tablet_l:block sticky ml-auto laptop:mx-auto z-30 top-3 w-[93%] bg-primary tablet_l:w-[95%] laptop:w-full ">
                 {/* <div className="sticky mx-auto z-50 top-3 w-[95%] bg-red-400 tablet_l:w-[95%] laptop:w-full bg-primary"> */}
                   <NavBar />
                 </div>
