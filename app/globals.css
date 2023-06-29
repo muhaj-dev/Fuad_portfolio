@@ -80,3 +80,76 @@ body {
 .raduis {
   border-radius: 0px, 50px, 0px, 0px;
 }
+
+
+/* scroll */
+
+body {
+  --black: #000000;
+  --ash-black: #222;
+  --white: #fff;
+  --sky: #00ccff;
+  --green: #22dddd;
+  --blue: #1300ff;
+  --dusk: #6600ff;
+  --purple: #9900ff;
+  --pink: #ff0066;
+  --red: #fe0222;
+  --orange: #fd7702;
+  --yellow: #ffbb00;
+
+  --background: var(--blue);
+  --accent: var(--white);
+
+  background-color: #0B0E21;
+  color: var(--accent);
+}
+
+.bg {
+  stroke: red;
+  opacity: 0.3;
+}
+
+#progress .indicator {
+  stroke: var(--accent);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  height: fit-content;
+  overflow-x: scroll;
+  padding: 20px 0;
+  gap: 3rem;
+  flex: 0 0 400px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: transparent;
+  border: 1px solid #18C1FC;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #18C1FC;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: #fff3;
+}
+
+li {
+  flex: 0 0 fit-content;
+}
+
+li:last-of-type {
+  margin: 0;
+}
+
+.mob_bor-r{
+  border-radius: 75px 5px 0px 0px;
+}

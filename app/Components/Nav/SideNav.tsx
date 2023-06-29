@@ -53,7 +53,7 @@ const links2 = [
 
 export const Side = () => {
   return (
-    <div className="fixed flex flex-col w-[38px] h-[96.5vh] max-h-[720px] py-5 bg-primary rounded-[10px]">
+    <div className="fixed flex flex-col w-[2.5rem] h-[96.5vh] max-h-[720px] py-5 bg-primary rounded-[10px]">
       <Link href='/'>
         <Image
           src={sect}
@@ -64,7 +64,7 @@ export const Side = () => {
             priority
         />
       </Link>
-      <div className="hidden md:flex flex-col justify-between items-center space-y-5 my-3">
+      <div className="flex flex-col justify-between items-center space-y-5 my-3">
         {links.map((link, index) => (
           <NavLink key={index} {...link} />
         ))}

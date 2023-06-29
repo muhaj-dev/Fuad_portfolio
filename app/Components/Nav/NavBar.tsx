@@ -13,15 +13,15 @@ import Image from "next/image";
 export const NavBar = () => {
   return (
      <div className="flex justify-between pb-2 top-1 bg-[#0B0E21]">
-      <div className="bg-primary w-[350px] p-3 h-fit rounded-md">
+      <div className="bg-primary w-[330px] big_lap:w-[350px] p-3 h-fit rounded-md">
         <p className="font-[500]  text-sm ">
           Do you know:{" "}
-          <span className="ml-1.5 text-[12px]">
+          <span className="ml-1 big_lap:ml-1.5 text-[10px]">
             fuadux rebranded as cryptolead_
           </span>
         </p>
       </div>
-      <div className="my-auto flex items-center justify-between px-4 gap-8 ">
+      <div className="my-auto flex items-center justify-between px-4 gap-3 big_lap:gap-5 laptop_l:gap-7 ">
         <Link href="/" className="h-fit my-auto">
           <Image
             src={twi}
@@ -82,7 +82,7 @@ export const NavBar = () => {
             priority
           />
         </Link>
-        <div className="text-[12px] text-center w-[125px] hidden desktop:block bg-blue py-3 px-3 border-[1px] border-light_blue rounded-md">
+        <div className="text-[10px] text-center w-[120px] hidden desktop:block bg-blue py-3 px-3 border-[1px] border-light_blue rounded-md">
           Buy Me a coffee
         </div>
       </div>
@@ -99,7 +99,7 @@ export const NavBar = () => {
           priority
         />
         <div className="flex gap-3 items-center">
-          <div className="flex flex-col ">
+          <div className="hidden  laptop_l:flex flex-col ">
             <p className="text-[14px]">Fuad Oluwaniyi</p>
             <p className="text-[grey] -mt-1 text-[12px]">
               fuadoluwaniyi@gmail.com
