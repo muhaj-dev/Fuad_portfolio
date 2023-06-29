@@ -16,20 +16,35 @@ import whats from "../public/img/whats.svg";
 import { IoMdArrowUp } from "react-icons/io";
 
 export default function Home() {
+  // const DynamicReactDataGrid = dynamic(
+  //   () => import('react-data-grid'),
+  //   { ssr: false }
+  // ); //load it on client side only
+  
   const [first, setFirst] = useState<boolean>(true);
-  const [width, setWidth] = useState<number>(window.innerWidth);
+  // const [width, setWidth] = useState<number>(window.innerWidth);
+
+  const [width, setWidth] = useState<number | null>(null)
+
+
 
   useEffect(() => {
     const handleResize = () => {
-      setWidth(window.innerWidth);
+      if (typeof window !== 'undefined') {
+        setWidth(window.innerWidth)
+      }
+      
     };
 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  
+const widthValue = width ?? 0;
+
   useEffect(() => {
-    if (width > 649) {
+    if (widthValue > 649) {
       const interval = setInterval(() => {
         setFirst(false);
       }, 10000);
@@ -48,12 +63,6 @@ export default function Home() {
       <div className="tablet_l:hidden block">
         {first && (
           <div className="w-[100vw] h-[100vh] fixed z-50">
-            {/* <div
-              onClick={() => setFirst(false)}
-              className="flex gap-2 items-center cursor-pointer w-fit mx-auto text-blue text-[12px] relative -right-32"
-            >
-              Go to Home page
-            </div> */}
             <div className="flex justify-center items-end b_gradient h-[70%] w-[100vw] ">
               <div className=" h-fit mb-14">
                 <p className="font-[400] text-[4rem] text-center">Fuad</p>
