@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import React, { useContext } from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
