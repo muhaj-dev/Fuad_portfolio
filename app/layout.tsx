@@ -1,6 +1,3 @@
-"use client";
-
-import { useContext } from 'react';
 import { Side } from "./Components/Nav/SideNav";
 import "./globals.css";
 import { Iceland, Inter } from "next/font/google";
@@ -48,10 +45,6 @@ export default function RootLayout({
                 </div>
             </div>
             {/* Mobile */}
-
-            <div>
-
-            </div>
           </div>
         </ButtonProvider>
       </body>

@@ -45,7 +45,7 @@ export default function Home() {
         <Job />
       </div>
 
-      <div className="tablet:hidden block">
+      <div className="tablet_l:hidden block">
         {first && (
           <div className="w-[100vw] h-[100vh] fixed z-50">
             {/* <div
