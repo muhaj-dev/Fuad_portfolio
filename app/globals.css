@@ -153,3 +153,21 @@ li:last-of-type {
 .mob_bor-r{
   border-radius: 75px 5px 0px 0px;
 }
+
+
+.beep {
+  animation: infinite 1.5s ease-in-out;
+  animation-name: rec;
+}
+
+@keyframes rec {
+  0%   {
+    margin-bottom: 0;
+  }
+  50%  {
+    margin-bottom: 8px;
+  }
+  100%  {
+    margin-bottom: 0;
+  }
+}

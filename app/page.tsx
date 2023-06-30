@@ -14,6 +14,7 @@ import link from "../public/img/link.svg";
 import you from "../public/img/you.svg";
 import whats from "../public/img/whats.svg";
 import { IoMdArrowUp } from "react-icons/io";
+import { MobileHome } from "./Components/Home/MobileHome";
 
 export default function Home() {
   // const DynamicReactDataGrid = dynamic(
@@ -65,7 +66,7 @@ const widthValue = width ?? 0;
           <div className="w-[100vw] h-[100vh] fixed z-50">
             <div className="flex justify-center items-end b_gradient h-[70%] w-[100vw] ">
               <div className=" h-fit mb-14">
-                <p className="font-[400] text-[4rem] text-center">Fuad</p>
+                <p className="font-[400]  relative -top-5 text-[4rem] text-center">Fuad</p>
                 <Image
                   src={profile2}
                   className="m"
@@ -76,15 +77,15 @@ const widthValue = width ?? 0;
                 />
               </div>
             </div>
-            <div className="relative -top-16 bg-[#0B0E21] flex z-10 justify-center items-center h-[40%] mob_bor-r">
-              <div className="w-[95%]">
+            <div className="relative -top-16 bg-[#0B0E21] flex flex-col selection:z-10 justify-center items-center h-[40%] mob_bor-r">
+              <div className="w-[95%] relative -top-5">
                 <p className="font-[600] text-center text-[1.85rem]">
                   Do you know:
                 </p>
                 <p className="text-[#D9D9D9] mb-7 mt-3 text-center">
                   fuadux rebranded as cryptolead_
                 </p>
-                <div className=" flex items-center justify-between px-2 ">
+                <div className="w-[90%] mb-8 mx-auto flex items-center justify-between px-2 ">
                   <Link href="/" className="h-fit my-auto">
                     <Image
                       src={twi}
@@ -149,16 +150,18 @@ const widthValue = width ?? 0;
                     Buy Me a coffee
                   </div>
                 </div>
+              </div>
+              <div className="beep w-full absolute bottom-12 ">
                 <IoMdArrowUp
                   onClick={() => setFirst(false)}
-                  className="mx-auto mt-8 w-[1.5rem] h-[2rem] text-light_blue"
+                  className=" cursor-pointer mx-auto w-[1.5rem] h-[2rem] text-light_blue"
                 />
+                {/* <p className="text-center text-light_blue">Click here to go to Home page</p> */}
               </div>
             </div>
           </div>
         )}
-        <div className="bg-[#0B0E21] ">
-          welcome</div>
+       <MobileHome />
       </div>
     </>
   );
