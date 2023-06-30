@@ -151,7 +151,7 @@ const widthValue = width ?? 0;
                   </div>
                 </div>
               </div>
-              <div className="beep w-full bottom-12 fixed ">
+              <div className="beep w-full bottom-6 fixed ">
                 <IoMdArrowUp
                   onClick={() => setFirst(false)}
                   className=" cursor-pointer mx-auto w-[1.5rem] h-[2rem] text-light_blue"
