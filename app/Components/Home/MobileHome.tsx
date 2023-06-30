@@ -22,7 +22,7 @@ export const MobileHome = () => {
               src={profile2}
               className=""
               alt="lang"
-              width={220}
+              width={250}
               height={140}
               priority
             />
