@@ -6,6 +6,7 @@ import profile2 from "../../../public/img/profile2.svg";
 import menu from "../../../public/img/menu.svg";
 import sect from "../../../public/img/sect.svg";
 import fuad from "../../../public/img/fuad.svg";
+import imgEdit from "../../../public/img/imgEdit.svg";
 import { TbMathGreater } from "react-icons/tb";
 import tick from "../../../public/img/tick.svg";
 import {
@@ -75,8 +76,12 @@ export const MobileHome = () => {
                   </span>
                 </p>
               </div>
-              <div className="border-[2px] w-fit h-fit border-primary rounded-full">
+              <div className="relative border-[2px] w-fit h-fit border-primary rounded-full">
                 <Image src={fuad} alt="lang" width={30} height={30} priority />
+                <div className="absolute -bottom-[3px] right-0 border-[3px] w-fit h-fit border-primary rounded-full">
+                <Image src={fuad} alt="lang" width={10} height={10} priority />
+               
+              </div>
               </div>
             </div>
 
