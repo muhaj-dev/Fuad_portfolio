@@ -33,14 +33,14 @@ export const MobileHome = () => {
               src={profile2}
               className=""
               alt="lang"
-              width={250}
+              width={300}
               height={140}
               priority
             />
           </div>
         </div>
         <div className="h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" />
-        <div className="relative bg-transparent flex flex-col pt-6 w-full h-[38vh]">
+        <div className="relative bg-transparent flex flex-col pt-6 w-full h-[33vh]">
           <div className="w-[95%] mx-auto">
             <div className="flex justify-between mx-auto relative">
               <Image
