@@ -143,14 +143,14 @@ const widthValue = width ?? 0;
                   </div>
                 </div>
               </div>
-              <div className="bg-red-500 beep z-30 w-full bottom-6 fixed ">
+              <div className="beep z-30 w-full bottom-6 fixed ">
                 <IoMdArrowUp
                   onClick={() => setFirst(false)}
                   className=" cursor-pointer mx-auto w-[1.5rem] h-[2rem] text-light_blue"
                 />
                 {/* <p className="text-center text-light_blue">Click here to go to Home page</p> */}
               </div>
-              <div className="absolute bg-green-500 -bottom-[140px] h-[10rem] w-[100dvw]"/>
+              <div className="absolute bg-[#0B0E21] -bottom-[126px] h-[8rem] w-[100dvw]"/>
             </div>
           </div>
         )}
