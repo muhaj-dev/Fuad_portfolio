@@ -120,7 +120,7 @@ ul {
   height: fit-content;
   overflow-x: scroll;
   padding: 20px 0;
-  gap: 3rem;
+  gap: 1rem;
   flex: 0 0 400px;
   margin: 0 auto;
 }

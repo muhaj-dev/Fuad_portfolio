@@ -107,8 +107,8 @@ export const MobileHome = () => {
           </div>
         </div>
         <div className="relative mt-auto bg-[#0B0E21] w-full h-[68dvh] mob_bor-r">
-          <div className="relative pt-6 w-[96%] mx-auto ">
-            <div className="ml-auto w-[85%]">
+          <div className="relative pt-5 w-[95%] mx-auto ">
+            <div className="ml-auto w-[88%]">
               <div className=" flex px-3 py-2 justify-between border-[2px] mt-1 rounded-md border-[#494F99] ">
                 <div className="flex items-center gap-1">
                   <Image
