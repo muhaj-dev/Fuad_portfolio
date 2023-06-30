@@ -34,7 +34,7 @@ export const MobileHome = () => {
           </div>
         </div>
         <div className="h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" />
-        <div className="relative bg-transparent flex flex-col pt-4 w-full h-[35dvh]">
+        <div className="relative bg-transparent flex flex-col pt-4 w-full h-[31dvh]">
           <div className="w-[95%] mx-auto">
             <div className="flex justify-between mx-auto relative">
               <Image
@@ -101,7 +101,7 @@ export const MobileHome = () => {
                   </div>
           </div>
         </div>
-        <div className="relative mt-auto bg-[#0B0E21] flex flex-col z-10 justify-center items-center w-full h-[65dvh] mob_bor-r">
+        <div className="relative mt-auto bg-[#0B0E21] flex flex-col z-10 justify-center items-center w-full h-[69dvh] mob_bor-r">
           <div className="w-[95%] relative ">
             <p className="font-[600] text-center text-[1.85rem]">
               Do you know:
