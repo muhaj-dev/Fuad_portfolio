@@ -39,7 +39,7 @@ export const MobileHome = () => {
             </p>
           </div>
         </div>
-        <div className="relative mt-auto bg-[#0B0E21] flex flex-col z-10 justify-center items-center w-full h-[75dvh] mob_bor-r">
+        <div className="relative mt-auto bg-[#0B0E21] flex flex-col z-10 justify-center items-center w-full h-[65dvh] mob_bor-r">
           <div className="w-[95%] relative -top-5">
             <p className="font-[600] text-center text-[1.85rem]">
               Do you know:

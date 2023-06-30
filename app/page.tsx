@@ -77,8 +77,8 @@ const widthValue = width ?? 0;
                 />
               </div>
             </div>
-            <div className="relative -top-16 bg-[#0B0E21] flex flex-col selection:z-10 justify-center items-center h-[40%] mob_bor-r">
-              <div className="w-[95%] relative -top-5">
+            <div className="relative -top-16 bg-[#0B0E21] flex flex-col selection:z-10 justify-center items-center h-[30%] mob_bor-r">
+              <div className="w-[95%] relative top-5">
                 <p className="font-[600] text-center text-[1.85rem]">
                   Do you know:
                 </p>
@@ -151,7 +151,7 @@ const widthValue = width ?? 0;
                   </div>
                 </div>
               </div>
-              <div className="beep w-full absolute bottom-12 ">
+              <div className="beep w-full bottom-12 fixed ">
                 <IoMdArrowUp
                   onClick={() => setFirst(false)}
                   className=" cursor-pointer mx-auto w-[1.5rem] h-[2rem] text-light_blue"
