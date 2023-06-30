@@ -78,7 +78,7 @@ export const MobileHome = () => {
               </div>
               <div className="relative border-[2px] w-fit h-fit border-primary rounded-full">
                 <Image src={fuad} alt="lang" width={30} height={30} priority />
-                <div className="absolute -bottom-[3px] right-0 border-[3px] w-fit h-fit border-primary rounded-full">
+                <div className="absolute -bottom-[5px] right-0 border-[3px] w-fit h-fit border-primary rounded-full">
                 <Image src={fuad} alt="lang" width={10} height={10} priority />
                
               </div>
@@ -137,6 +137,8 @@ export const MobileHome = () => {
             </p>
             <Nft/>
             <Job />
+
+            <p className="text-light_blue text-[0.7rem] my-3 text-center">Copyright fuadoluwaniyi@gmail.com © 2023</p>
           </div>
         </div>
       </div>
