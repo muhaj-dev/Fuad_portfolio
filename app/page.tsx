@@ -56,9 +56,9 @@ const widthValue = width ?? 0;
       <div className="tablet_l:hidden block">
         {first && (
           <div className="w-[100vw] h-[100vh] fixed z-50">
-            <div className="flex justify-center items-end b_gradient h-[70%] w-[100vw] ">
+            <div className="flex justify-center items-end b_gradient h-3/5 w-[100vw] ">
               <div className=" h-fit mb-14">
-                <p className="font-[400]  relative -top-5 text-[4rem] text-center">Fuad</p>
+                <p className="font-[400]  relative top-3 text-[4rem] text-center">Fuad</p>
                 <Image
                   src={profile2}
                   className="m"
@@ -69,7 +69,7 @@ const widthValue = width ?? 0;
                 />
               </div>
             </div>
-            <div className="relative -top-16 bg-[#0B0E21] flex flex-col selection:z-10 justify-center items-center h-[30%] mob_bor-r">
+            <div className="relative -top-16 bg-[#0B0E21] flex flex-col selection:z-10 justify-center items-center h-2/5 mob_bor-r">
               <div className="w-[95%] relative top-1">
                 <p className="font-[600] text-center text-[1.85rem]">
                   Do you know:

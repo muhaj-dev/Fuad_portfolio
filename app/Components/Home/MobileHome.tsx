@@ -26,7 +26,7 @@ import { Job } from "./Job";
 export const MobileHome = () => {
   return (
     <div>
-      <div className="b_gradient h-[100dvh] w-[100dvw] ">
+      <div className="b_gradient h-fit w-[100dvw] ">
         <div className="flex absolute top-0 bottom-0 left-0 right-0   h-[100dvh] w-[100vw] ">
           <div className="w-fit p-5 ml-auto  h-fit mb-14">
             <Image
@@ -40,7 +40,7 @@ export const MobileHome = () => {
           </div>
         </div>
         <div className="h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" />
-        <div className="relative bg-transparent flex flex-col pt-4 w-full h-[34dvh]">
+        <div className="relative bg-transparent flex flex-col pt-4 w-full h-2/6">
           <div className="w-[95%] mx-auto">
             <div className="flex justify-between mx-auto relative">
               <Image
@@ -60,7 +60,7 @@ export const MobileHome = () => {
               cryptolead_
             </p>
             <div className="w-full flex items-center justify-between">
-              <div className="flex gap-1 bg-primary w-[80%] p-3  rounded-md">
+              <div className="flex gap-2 bg-primary w-[85%] box_shadow p-3  rounded-md">
                 <Image
                   src={sect}
                   className=""
@@ -111,10 +111,10 @@ export const MobileHome = () => {
             </div>
           </div>
         </div>
-        <div className="relative mt-auto bg-[#0B0E21] w-full h-[68dvh] mob_bor-r">
+        <div className="relative mt-auto bg-[#0B0E21] w-full h-4/6 mob_bor-r">
           <div className="relative pt-5 w-[95%] mx-auto ">
-            <div className="ml-auto w-[88%]">
-              <div className=" flex px-3 py-2 justify-between border-[2px] mt-1 rounded-md border-[#494F99] ">
+            <div className="ml-auto w-[88%] mb-7">
+              <div className=" flex px-3 py-3 justify-between border-[3px] mt-1 rounded-md border-[#494F99] ">
                 <div className="flex items-center gap-1">
                   <Image
                     src={tick}
@@ -124,7 +124,7 @@ export const MobileHome = () => {
                     height={20}
                     priority
                   />
-                  <p className="text-[14px]">open to work</p>
+                  <p className="text-[1rem] font-500">open to work</p>
                 </div>
                 <button className="text-[#D9D9D9] text-[14px] flex gap-1 items-center">
                   hire
@@ -138,7 +138,7 @@ export const MobileHome = () => {
             <Nft/>
             <Job />
 
-            <p className="flex items-center justify-center text-[#068C95] font-semibold text-[0.7rem] mt-10 text-center"><div className="h-1 w-1 mr-1.5 rounded-full bg-[#068C95]" /><span className="underline mr-1"> Copyright </span> fuadoluwaniyi@gmail.com © 2023</p>
+            <p className="flex items-center justify-center text-[#068C95] font-semibold text-[0.7rem] mt-10 text-center"><label className="h-1 w-1 mr-1.5 rounded-full bg-[#068C95]" /><span className="underline mr-1"> Copyright </span> fuadoluwaniyi@gmail.com © 2023</p>
             <br />
           </div>
         </div>
