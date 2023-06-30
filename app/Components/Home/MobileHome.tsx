@@ -138,7 +138,8 @@ export const MobileHome = () => {
             <Nft/>
             <Job />
 
-            <p className="text-light_blue text-[0.7rem] my-3 text-center">Copyright fuadoluwaniyi@gmail.com © 2023</p>
+            <p className="text-[#068C95] text-[0.7rem] mt-10 text-center">Copyright fuadoluwaniyi@gmail.com © 2023</p>
+            <br />
           </div>
         </div>
       </div>
