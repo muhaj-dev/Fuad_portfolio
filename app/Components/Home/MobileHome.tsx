@@ -64,13 +64,13 @@ export const MobileHome = () => {
                   src={sect}
                   className=""
                   alt="lang"
-                  width={10}
-                  height={10}
+                  width={15}
+                  height={15}
                   priority
                 />
                 <p className="font-[500] text-[#D9D9D9] text-[.65rem] ">
                   Do you know:{" "}
-                  <span className="ml-1  text-[10px]">
+                  <span className="ml-[2px]  text-[10px]">
                     fuadux rebranded as cryptolead_
                   </span>
                 </p>
