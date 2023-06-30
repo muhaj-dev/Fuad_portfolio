@@ -17,14 +17,7 @@ import { IoMdArrowUp } from "react-icons/io";
 import { MobileHome } from "./Components/Home/MobileHome";
 
 export default function Home() {
-  // const DynamicReactDataGrid = dynamic(
-  //   () => import('react-data-grid'),
-  //   { ssr: false }
-  // ); //load it on client side only
-  
   const [first, setFirst] = useState<boolean>(true);
-  // const [width, setWidth] = useState<number>(window.innerWidth);
-
   const [width, setWidth] = useState<number | null>(null)
 
 
@@ -33,8 +26,7 @@ export default function Home() {
     const handleResize = () => {
       if (typeof window !== 'undefined') {
         setWidth(window.innerWidth)
-      }
-      
+      }  
     };
 
     window.addEventListener("resize", handleResize);
@@ -151,13 +143,14 @@ const widthValue = width ?? 0;
                   </div>
                 </div>
               </div>
-              <div className="beep w-full bottom-6 fixed ">
+              <div className="bg-red-500 beep z-30 w-full bottom-6 fixed ">
                 <IoMdArrowUp
                   onClick={() => setFirst(false)}
                   className=" cursor-pointer mx-auto w-[1.5rem] h-[2rem] text-light_blue"
                 />
                 {/* <p className="text-center text-light_blue">Click here to go to Home page</p> */}
               </div>
+              <div className="absolute bg-green-500 -bottom-[140px] h-[10rem] w-[100dvw]"/>
             </div>
           </div>
         )}

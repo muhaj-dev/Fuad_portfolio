@@ -295,9 +295,7 @@ export const Profile = () => {
                   </div>
                 </div>
 
-                <div className="my-2">
-                  <p className="text-[16px] font-[500]">Status</p>
-                  <div className="flex px-3 py-2 justify-between border-[2px] mt-1 rounded-md border-[#494F99] ">
+                <div className="flex px-3 py-2 justify-between border-[2px] mt-1 rounded-md border-[#494F99] ">
                     <div className="flex items-center gap-1">
                       <Image
                         src={twitter}
@@ -314,7 +312,6 @@ export const Profile = () => {
                       <TbMathGreater className="text-light_blue w-[10px]" />
                     </button>
                   </div>
-                </div>
 
                 <div>
                   <div className="flex justify-between items-center">

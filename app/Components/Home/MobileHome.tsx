@@ -6,16 +6,21 @@ import profile2 from "../../../public/img/profile2.svg";
 import menu from "../../../public/img/menu.svg";
 import sect from "../../../public/img/sect.svg";
 import fuad from "../../../public/img/fuad.svg";
-import twi from "../../../public/img/twi.svg";
-import discord from "../../../public/img/discord.svg";
-import iinsta from "../../../public/img/iinsta.svg";
-import link from "../../../public/img/link.svg";
-import you from "../../../public/img/you.svg";
-import whats from "../../../public/img/whats.svg";
-import { AiOutlineTwitter, AiOutlineWhatsApp, AiFillInstagram, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
-import { BiLogoDiscordAlt, BiLogoJava } from 'react-icons/bi'
+import { TbMathGreater } from "react-icons/tb";
+import tick from "../../../public/img/tick.svg";
+import {
+  AiOutlineTwitter,
+  AiOutlineWhatsApp,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillYoutube,
+} from "react-icons/ai";
+import { BiLogoDiscordAlt, BiLogoJava } from "react-icons/bi";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import Link from "next/link";
+import { Nft } from "./Nft";
+import { Job } from "./Job";
+
 
 export const MobileHome = () => {
   return (
@@ -34,7 +39,7 @@ export const MobileHome = () => {
           </div>
         </div>
         <div className="h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" />
-        <div className="relative bg-transparent flex flex-col pt-4 w-full h-[31dvh]">
+        <div className="relative bg-transparent flex flex-col pt-4 w-full h-[34dvh]">
           <div className="w-[95%] mx-auto">
             <div className="flex justify-between mx-auto relative">
               <Image
@@ -76,39 +81,57 @@ export const MobileHome = () => {
             </div>
 
             <div className="w-[60%] my-3 flex justify-between px-2 ">
-                  <Link href="/" className="h-fit my-auto">
-                   < AiOutlineTwitter className="text-primary w-[1.15rem] h-[1.15rem] "/>
-                  </Link>
-                  <Link href="/" className="h-fit my-auto">
-                    <BiLogoDiscordAlt className="text-primary w-[1.15rem] h-[1.15rem]"  />
-                  </Link>
-                  <Link href="/" className="h-fit my-auto">
-                    <AiFillInstagram  className="text-primary w-[1.15rem] h-[1.15rem] "/>
-                  </Link>
-                  <Link href="/" className="h-fit my-auto">
-                    <AiFillLinkedin  className="text-primary w-[1.15rem] h-[1.15rem] "/>
-                  </Link>
-                  <Link href="/" className="h-fit my-auto">
-                    <AiFillYoutube  className="text-primary w-[1.15rem] h-[1.15rem] "/>
-                  </Link>
-                  <Link href="/" className="h-fit my-auto">
-                    <AiOutlineWhatsApp  className="text-primary w-[1.15rem] h-[1.15rem] "/>
-                  </Link>
-                </div>
-                  <div className="box_shadow text-[12px] flex items-center justify-center gap-1 text-primary w-fit bg-white py-1 px-2 border-[1px] border-light_blue rounded-[10px]">
-                  <BiLogoJava  className="text-primary w-[1.1rem] h-[1.1rem] "/>
-                     coffee
-                  </div>
+              <Link href="/" className="h-fit my-auto">
+                <AiOutlineTwitter className="text-primary w-[1.15rem] h-[1.15rem] " />
+              </Link>
+              <Link href="/" className="h-fit my-auto">
+                <BiLogoDiscordAlt className="text-primary w-[1.15rem] h-[1.15rem]" />
+              </Link>
+              <Link href="/" className="h-fit my-auto">
+                <AiFillInstagram className="text-primary w-[1.15rem] h-[1.15rem] " />
+              </Link>
+              <Link href="/" className="h-fit my-auto">
+                <AiFillLinkedin className="text-primary w-[1.15rem] h-[1.15rem] " />
+              </Link>
+              <Link href="/" className="h-fit my-auto">
+                <AiFillYoutube className="text-primary w-[1.15rem] h-[1.15rem] " />
+              </Link>
+              <Link href="/" className="h-fit my-auto">
+                <AiOutlineWhatsApp className="text-primary w-[1.15rem] h-[1.15rem] " />
+              </Link>
+            </div>
+            <div className="box_shadow text-[12px] flex items-center justify-center gap-1 text-primary w-fit bg-white py-1 px-2 border-[1px] border-light_blue rounded-[10px]">
+              <BiLogoJava className="text-primary w-[1.1rem] h-[1.1rem] " />
+              coffee
+            </div>
           </div>
         </div>
-        <div className="relative mt-auto bg-[#0B0E21] flex flex-col z-10 justify-center items-center w-full h-[69dvh] mob_bor-r">
-          <div className="w-[95%] relative ">
-            <p className="font-[600] text-center text-[1.85rem]">
-              Do you know:
+        <div className="relative mt-auto bg-[#0B0E21] w-full h-[68dvh] mob_bor-r">
+          <div className="relative pt-6 w-[96%] mx-auto ">
+            <div className="ml-auto w-[85%]">
+              <div className=" flex px-3 py-2 justify-between border-[2px] mt-1 rounded-md border-[#494F99] ">
+                <div className="flex items-center gap-1">
+                  <Image
+                    src={tick}
+                    className="mx-auto rounded-full p-1 z-20 bg-primary"
+                    alt="lang"
+                    width={25}
+                    height={20}
+                    priority
+                  />
+                  <p className="text-[14px]">open to work</p>
+                </div>
+                <button className="text-[#D9D9D9] text-[14px] flex gap-1 items-center">
+                  hire
+                  <TbMathGreater className="text-light_blue w-[10px]" />
+                </button>
+              </div>
+            </div>
+            <p className="text-[#D9D9D9] leading-8 text-[1.5rem] font-[500] w-[90%] my-3 ">
+              Community Manager & Web 3.0 Writer
             </p>
-            <p className="text-[#D9D9D9] mb-7 mt-3 text-center">
-              fuadux rebranded as cryptolead_
-            </p>
+            <Nft/>
+            <Job />
           </div>
         </div>
       </div>
