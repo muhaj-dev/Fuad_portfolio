@@ -56,10 +56,10 @@ export const MobileHome = () => {
                 <MdOutlineKeyboardArrowDown />
               </p>
             </div>
-            <p className="my-3 text-[2rem] font-bold text-[#0B0E21]">
+            <p className="my-3 text-[2.25rem] font-bold text-[#0B0E21]">
               cryptolead_
             </p>
-            <div className="w-full my-4 flex items-center justify-between">
+            <div className="w-full my-5 flex items-center justify-between">
               <div className="flex gap-2 bg-primary w-[85%] box_shadow p-3  rounded-md">
                 <Image
                   src={sect}
@@ -85,7 +85,7 @@ export const MobileHome = () => {
               </div>
             </div>
 
-            <div className="w-[60%] my-3 flex justify-between px-2 ">
+            <div className="w-[60%] my-4 flex justify-between px-2 ">
               <Link href="/" className="h-fit my-auto">
                 <AiOutlineTwitter className="text-primary w-[1.15rem] h-[1.15rem] " />
               </Link>

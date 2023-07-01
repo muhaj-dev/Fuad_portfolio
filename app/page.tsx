@@ -55,21 +55,21 @@ const widthValue = width ?? 0;
 
       <div className="tablet_l:hidden block">
         {first && (
-          <div className="w-[100vw] h-[100vh] fixed z-50">
-            <div className="flex justify-center items-end b_gradient h-3/5 w-[100vw] ">
-              <div className=" h-fit mb-14">
-                <p className="font-[400]  relative top-3 text-[4rem] text-center">Fuad</p>
+          <div className="w-[100dvw] b_gradient h-[100dvh] fixed z-50">
+            <div className="flex justify-center  h-3/5 w-[100vw] ">
+              <div className=" h-full justify-between flex flex-col mb-14">
+                <p className="font-[400] relative top-3 text-[4rem] text-center">Fuad</p>
                 <Image
                   src={profile2}
-                  className="m"
+                  className=""
                   alt="lang"
-                  width={280}
+                  width={230}
                   height={200}
                   priority
                 />
               </div>
             </div>
-            <div className="relative -top-16 bg-[#0B0E21] flex flex-col selection:z-10 justify-center items-center h-2/5 mob_bor-r">
+            <div className="relative bg-[#0B0E21] h-2/5 flex flex-col selection:z-10 justify-center items-center  mob_bor-r">
               <div className="w-[95%] relative top-1">
                 <p className="font-[600] text-center text-[1.85rem]">
                   Do you know:
@@ -150,7 +150,7 @@ const widthValue = width ?? 0;
                 />
                 {/* <p className="text-center text-light_blue">Click here to go to Home page</p> */}
               </div>
-              <div className="absolute bg-[#0B0E21] -bottom-[126px] h-[8rem] w-[100dvw]"/>
+              {/* <div className="absolute bg-[#0B0E21] -bottom-[126px] h-[8rem] w-[100dvw]"/> */}
             </div>
           </div>
         )}
