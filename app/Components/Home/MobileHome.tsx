@@ -29,7 +29,7 @@ export const MobileHome = () => {
     <div>
       <div className="b_gradient h-fit w-[100dvw] ">
         <div className="flex absolute top-0 bottom-0 left-0 right-0   h-[100dvh] w-[100vw] ">
-          <div className="w-fit ml-auto pt-3  h-fit mb-1">
+          <div className="w-fit ml-auto pt-2  h-fit mb-1">
             <Image
               src={profile2}
               className=""
@@ -41,7 +41,7 @@ export const MobileHome = () => {
           </div>
         </div>
         <div className="h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" />
-        <div className="relative bg-transparent flex flex-col pt-3 w-full h-[29.5vh]">
+        <div className="relative bg-transparent flex flex-col pt-3 w-full h-[29vh]">
           <div className="w-[95%] mx-auto pt-3">
             <div className="flex justify-between mx-auto relative">
               <Image
