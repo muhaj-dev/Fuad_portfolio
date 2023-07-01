@@ -40,7 +40,7 @@ export const MobileHome = () => {
           </div>
         </div>
         <div className="h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" />
-        <div className="relative bg-transparent flex flex-col pt-3 w-full h-[30vh]">
+        <div className="relative bg-transparent flex flex-col pt-3 w-full h-[29.5vh]">
           <div className="w-[95%] mx-auto pt-3">
             <div className="flex justify-between mx-auto relative">
               <Image
