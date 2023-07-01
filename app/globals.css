@@ -175,3 +175,24 @@ li:last-of-type {
 .box_shadow{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
 }
+
+
+@media screen and (max-width: 649px) {
+  ::-webkit-scrollbar {
+    height: 2px;
+    width: 2px;
+    background: transparent;
+    border: 1px solid transparent;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+  
+}
