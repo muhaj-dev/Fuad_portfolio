@@ -28,19 +28,19 @@ export const MobileHome = () => {
     <div>
       <div className="b_gradient h-fit w-[100dvw] ">
         <div className="flex absolute top-0 bottom-0 left-0 right-0   h-[100dvh] w-[100vw] ">
-          <div className="w-fit p-5 ml-auto  h-fit mb-14">
+          <div className="w-fit  ml-auto  h-fit mb-1">
             <Image
               src={profile2}
               className=""
               alt="lang"
-              width={300}
+              width={230}
               height={140}
               priority
             />
           </div>
         </div>
         <div className="h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" />
-        <div className="relative bg-transparent flex flex-col pt-6 w-full h-[33vh]">
+        <div className="relative bg-transparent flex flex-col pt-3 w-full h-[33vh]">
           <div className="w-[95%] mx-auto">
             <div className="flex justify-between mx-auto relative">
               <Image
