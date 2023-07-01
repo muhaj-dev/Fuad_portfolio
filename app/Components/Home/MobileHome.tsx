@@ -8,6 +8,7 @@ import sect from "../../../public/img/sect.svg";
 import fuad from "../../../public/img/fuad.svg";
 import imgEdit from "../../../public/img/imgEdit.svg";
 import { TbMathGreater } from "react-icons/tb";
+import { FaAngleRight } from 'react-icons/fa'
 import tick from "../../../public/img/tick.svg";
 import {
   AiOutlineTwitter,
@@ -124,11 +125,11 @@ export const MobileHome = () => {
                     height={20}
                     priority
                   />
-                  <p className="text-[1rem] font-500">open to work</p>
+                  <p className="text-[1.2rem] font-600">open to work</p>
                 </div>
                 <button className="text-[#D9D9D9] text-[14px] flex gap-1 items-center">
                   hire
-                  <TbMathGreater className="text-light_blue w-[10px]" />
+                  <FaAngleRight className="text-[#068C95] w-[14px] h-[14px]"  />
                 </button>
               </div>
             </div>
