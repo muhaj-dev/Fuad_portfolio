@@ -63,7 +63,7 @@ const widthValue = width ?? 0;
                   src={profile2}
                   className=""
                   alt="lang"
-                  width={330}
+                  width={350}
                   height={200}
                   priority
                 />
