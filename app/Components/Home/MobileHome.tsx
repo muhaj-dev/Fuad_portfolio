@@ -28,7 +28,7 @@ export const MobileHome = () => {
     <div>
       <div className="b_gradient h-fit w-[100dvw] ">
         <div className="flex absolute top-0 bottom-0 left-0 right-0   h-[100dvh] w-[100vw] ">
-          <div className="w-fit ml-auto  h-fit mb-1">
+          <div className="w-fit ml-auto pt-5  h-fit mb-1">
             <Image
               src={profile2}
               className=""
@@ -40,7 +40,7 @@ export const MobileHome = () => {
           </div>
         </div>
         <div className="h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" />
-        <div className="relative bg-transparent flex flex-col pt-3 w-full h-[31vh]">
+        <div className="relative bg-transparent flex flex-col pt-3 w-full h-[30vh]">
           <div className="w-[95%] mx-auto">
             <div className="flex justify-between mx-auto relative">
               <Image
@@ -59,7 +59,7 @@ export const MobileHome = () => {
             <p className="my-3 text-[2.25rem] font-bold text-[#0B0E21]">
               cryptolead_
             </p>
-            <div className="w-full my-5 flex items-center justify-between">
+            <div className="w-full my-4 flex items-center justify-between">
               <div className="flex gap-2 bg-primary w-[85%] box_shadow p-3  rounded-md">
                 <Image
                   src={sect}
