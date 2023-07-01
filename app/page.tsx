@@ -58,12 +58,12 @@ const widthValue = width ?? 0;
           <div className="w-[100dvw] b_gradient h-[100dvh] fixed z-50">
             <div className="flex justify-center  h-3/5 w-[100vw] ">
               <div className=" h-full justify-between flex flex-col mb-14">
-                <p className="font-[400] relative top-3 text-[4rem] text-center">Fuad</p>
+                <p className="font-[400] relative top-4 text-[4rem] text-center">Fuad</p>
                 <Image
                   src={profile2}
                   className=""
                   alt="lang"
-                  width={230}
+                  width={280}
                   height={200}
                   priority
                 />
