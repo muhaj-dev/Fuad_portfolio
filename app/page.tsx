@@ -63,7 +63,7 @@ const widthValue = width ?? 0;
                   src={profile2}
                   className=""
                   alt="lang"
-                  width={350}
+                  width={330}
                   height={200}
                   priority
                 />
@@ -71,10 +71,10 @@ const widthValue = width ?? 0;
             </div>
             <div className="relative bg-[#0B0E21] h-2/5 flex flex-col selection:z-10 justify-center items-center  mob_bor-r">
               <div className="w-[95%] relative top-1">
-                <p className="font-[600] text-center text-[2rem]">
+                <p className="font-[600] text-center text-[2.75rem]">
                   Do you know:
                 </p>
-                <p className="text-[#D9D9D9] text-[18px] mb-7 mt-3 text-center">
+                <p className="text-[#D9D9D9] text-[20px] mb-7 mt-3 text-center">
                   fuadux rebranded as cryptolead_
                 </p>
                 <div className="w-[90%] mb-8 mx-auto flex items-center justify-between px-2 ">
