@@ -35,7 +35,7 @@ export const MobileHome = () => {
               className=""
               alt="lang"
               width={225}
-              height={140}
+              height={470}
               priority
             />
           </div>
