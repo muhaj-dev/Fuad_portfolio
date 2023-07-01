@@ -51,7 +51,7 @@ export const MobileHome = () => {
                 height={25}
                 priority
               />
-              <p className="flex items-center gap-1 text-black">
+              <p className="flex font-[500] items-center gap-1 text-black">
                 View as
                 <MdOutlineKeyboardArrowDown />
               </p>
