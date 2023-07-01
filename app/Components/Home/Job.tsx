@@ -159,7 +159,7 @@ export const Job = () => {
           </div>
         </li>
       </ul>
-      <div className="w-full mt-5 flex flex-col gap-5 ">
+      <div className="w-full mt-5 flex flex-col gap-4 ">
         <div className="flex">
           <div className="h-[5rem] overflow-y-hidden rounded-[0.625rem]">
             <Image
