@@ -125,7 +125,7 @@ export const MobileHome = () => {
                     height={20}
                     priority
                   />
-                  <p className="text-[1.2rem] font-600">open to work</p>
+                  <p className="text-[1.2rem] font-[600]">open to work</p>
                 </div>
                 <button className="text-[#D9D9D9] text-[14px] flex gap-1 items-center">
                   hire
