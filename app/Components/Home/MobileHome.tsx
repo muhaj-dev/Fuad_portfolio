@@ -27,7 +27,7 @@ import { Job } from "./Job";
 export const MobileHome = () => {
   return (
     <div>
-      <div className="b_gradient h-fit w-[100dvw] ">
+      <div className="b_gradient2 h-fit w-[100dvw] ">
         <div className="flex absolute top-0 bottom-0 left-0 right-0   h-[100dvh] w-[100vw] ">
           <div className="w-fit ml-auto pt-5 h-fit mb-1">
             <Image

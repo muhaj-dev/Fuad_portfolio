@@ -41,6 +41,9 @@ body {
 .b_gradient {
   background: linear-gradient(180deg, #3561FF 0%, #8453EA 100%); 
 }
+.b_gradient2 {
+  background: linear-gradient(180deg, #ECC09B 0%, #E2B5A3 9.83%, #8453EA 100%);
+}
 .bor_r {
   background: linear-gradient(180deg, #3561FF 0%, #8453EA 100%);
   padding: 1.5px;
