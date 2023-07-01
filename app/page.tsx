@@ -70,8 +70,8 @@ const widthValue = width ?? 0;
               </div>
             </div>
             <div className="relative bg-[#0B0E21] h-2/5 flex flex-col selection:z-10 justify-center items-center  mob_bor-r">
-              <div className="w-[95%] relative h-[85%]">
-                <p className="font-[600] text-center text-[2.45rem]">
+              <div className="w-[95%] relative h-[80%]">
+                <p className="font-[600] mt-3 text-center text-[2.45rem]">
                   Do you know:
                 </p>
                 <p className="text-[#D9D9D9] text-[20px] mb-7 mt-3 text-center">
