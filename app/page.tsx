@@ -74,7 +74,7 @@ const widthValue = width ?? 0;
                 <p className="font-[600] mt-3 text-center text-[2.45rem]">
                   Do you know:
                 </p>
-                <p className="text-[#D9D9D9] text-[20px] mb-7 mt-3 text-center">
+                <p className="text-[#D9D9D9] text-[20px] mb-12 mt-4 text-center">
                   fuadux rebranded as cryptolead_
                 </p>
                 <div className="w-[90%] mb-8 mx-auto flex items-center justify-between px-2 ">
@@ -148,7 +148,7 @@ const widthValue = width ?? 0;
                   onClick={() => setFirst(false)}
                   className=" cursor-pointer mx-auto w-[1.5rem] h-[2rem] text-light_blue"
                 />
-                {/* <p className="text-center text-light_blue">Click here to go to Home page</p> */}
+                <p className="text-center text-light_blue">Sypte up</p>
               </div>
               {/* <div className="absolute bg-[#0B0E21] -bottom-[126px] h-[8rem] w-[100dvw]"/> */}
             </div>
