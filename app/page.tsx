@@ -18,23 +18,20 @@ import { MobileHome } from "./Components/Home/MobileHome";
 
 export default function Home() {
   const [first, setFirst] = useState<boolean>(true);
-  const [width, setWidth] = useState<number | null>(null)
-
-
+  const [width, setWidth] = useState<number | null>(null);
 
   useEffect(() => {
     const handleResize = () => {
-      if (typeof window !== 'undefined') {
-        setWidth(window.innerWidth)
-      }  
+      if (typeof window !== "undefined") {
+        setWidth(window.innerWidth);
+      }
     };
 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  
-const widthValue = width ?? 0;
+  const widthValue = width ?? 0;
 
   useEffect(() => {
     if (widthValue > 649) {
@@ -58,7 +55,9 @@ const widthValue = width ?? 0;
           <div className="w-[100dvw] b_gradient h-[100dvh] fixed z-50">
             <div className="flex justify-center  h-3/5 w-[100vw] ">
               <div className=" h-full justify-between flex flex-col mb-14">
-                <p className="font-[400] relative top-4 text-[4rem] text-center">Fuad</p>
+                <p className="font-[400] relative top-4 text-[4rem] text-center">
+                  Fuad
+                </p>
                 <Image
                   src={profile2}
                   className=""
@@ -143,18 +142,18 @@ const widthValue = width ?? 0;
                   </div>
                 </div>
               </div>
-              <div className="beep z-30 w-full bottom-6 fixed ">
-                <IoMdArrowUp
-                  onClick={() => setFirst(false)}
-                  className=" cursor-pointer mx-auto w-[1.5rem] h-[2rem] text-light_blue"
-                />
+              <div
+                onClick={() => setFirst(false)}
+                className="beep z-30 w-full bottom-6 fixed "
+              >
+                <IoMdArrowUp className=" cursor-pointer mx-auto w-[1.5rem] h-[2rem] text-light_blue" />
                 <p className="text-center text-light_blue">Sypte up</p>
               </div>
               {/* <div className="absolute bg-[#0B0E21] -bottom-[126px] h-[8rem] w-[100dvw]"/> */}
             </div>
           </div>
         )}
-       <MobileHome />
+        <MobileHome />
       </div>
     </>
   );
