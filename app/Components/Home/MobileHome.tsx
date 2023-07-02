@@ -64,8 +64,8 @@ export const MobileHome = () => {
               <p 
                 onClick={toggleView}
               className="flex cursor-pointer font-semibold items-center gap-1 text-black">
-                View as
-                <MdOutlineKeyboardArrowDown />
+                View as {veiwAs ? 'Web Designer' : 'Crypto Expert'}
+                {/* <MdOutlineKeyboardArrowDown /> */}
               </p>
             </div>
             <p className="my-3 text-[2.25rem] font-bold text-[#0B0E21]">
