@@ -8,55 +8,56 @@ import profile3 from "../../../public/img/profile3.svg";
 import Link from "next/link";
 import { ButtonContext } from "@/Hooks/BtnContext";
 
-
-
 export const Hero = () => {
-
   const contextValue = useContext(ButtonContext);
 
   if (!contextValue) {
     return null;
   }
 
-  const { buttonState, toggleButton } = contextValue;
-
+  const { buttonState, toggleButton, veiwAs, toggleView } = contextValue;
 
   return (
     <div className="">
       <div className="flex justify-between">
-        <p className="text-[18px] tablet_l:text-[24px] big_lap:text-[30px]">View Fuad live as</p>
-        <button 
+        <p
+          onClick={toggleView}
+          className="cursor-pointer text-[18px] tablet_l:text-[24px] big_lap:text-[30px]"
+        >
+          View Fuad live as {veiwAs ? "web designer" : "crypto expert"}
+        </p>
+        <button
           onClick={toggleButton}
           className="hidden laptop:flex gap-1 text-[12px] tablet_l:text-[14px] items-center text-light_blue "
         >
-         {buttonState ?
-         <> 
-         Show less
-          <MdKeyboardArrowRight className="w-[14px]" />
-          </>
-        :
-        <> 
-        Show more
-         <MdKeyboardArrowRight className="w-[14px]" />
-         </>
-        }
+          {buttonState ? (
+            <>
+              Show less
+              <MdKeyboardArrowRight className="w-[14px]" />
+            </>
+          ) : (
+            <>
+              Show more
+              <MdKeyboardArrowRight className="w-[14px]" />
+            </>
+          )}
         </button>
-        
-        <button 
+
+        <button
           onClick={toggleButton}
           className="laptop:hidden flex gap-1 text-[12px] tablet_l:text-[14px] items-center text-light_blue "
         >
-         {buttonState ?
-         <> 
-         Show more
-          <MdKeyboardArrowRight className="w-[14px]" />
-          </>
-        :
-        <> 
-        Show less
-         <MdKeyboardArrowRight className="w-[14px]" />
-         </>
-        }
+          {buttonState ? (
+            <>
+              Show more
+              <MdKeyboardArrowRight className="w-[14px]" />
+            </>
+          ) : (
+            <>
+              Show less
+              <MdKeyboardArrowRight className="w-[14px]" />
+            </>
+          )}
         </button>
       </div>
       <div className="mt-2 flex flex-wrap gap-y-6 justify-between">
@@ -97,7 +98,9 @@ export const Hero = () => {
         <div className="relative w-full big_lap:w-[48%] h-[240px] profile3 rounded-lg">
           <div className="blur_bg absolute py-3 bottom-4 left-4 w-[90%] laptop:w-[250px]  text-sm border- border- rounded-lg">
             <div className="w-[90%] laptop:w-[75%] mx-auto mb-2.5">
-              <p className="font-semibold text-[14px] laptop:text-[16px] mb-1">UI/UX Designer</p>
+              <p className="font-semibold text-[14px] laptop:text-[16px] mb-1">
+                UI/UX Designer
+              </p>
               <div className="text-[12px] laptop:text-[14px] mx-auto flex justify-between">
                 <p>fuadux</p>
                 <p>1 years XP</p>
