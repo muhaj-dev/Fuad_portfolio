@@ -29,7 +29,7 @@ export const Nft = () => {
         <p className="text-[#068C95] text-[24px] font-[600]">My NTFs</p>
       </div>
 
-      <ul ref={ref} className="hidden tablet:flex">
+      <ul ref={ref} className="hidden tablet_l:flex">
         <li>
           <div className="flex gap-2 basis-fit items-center">
             <div className="rounded-full">
@@ -173,7 +173,7 @@ export const Nft = () => {
         </li>
       </ul>
 
-      <ul ref={ref} className=" tablet_l:hidden">
+      <ul ref={ref} className="tablet_l:hidden">
         <li>
           <div className="relative flex flex-col items-center basis-fit">
             <div className="rounded-full">
