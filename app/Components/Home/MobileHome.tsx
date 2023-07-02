@@ -1,13 +1,11 @@
-import React from "react";
 
+
+import React, { useContext } from "react";
 import Image from "next/image";
-
 import profile2 from "../../../public/img/profile2.svg";
 import menu from "../../../public/img/menu.svg";
 import sect from "../../../public/img/sect.svg";
 import fuad from "../../../public/img/fuad.svg";
-import imgEdit from "../../../public/img/imgEdit.svg";
-import { TbMathGreater } from "react-icons/tb";
 import { FaAngleRight } from 'react-icons/fa'
 import tick from "../../../public/img/tick.svg";
 import {
@@ -22,12 +20,23 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import Link from "next/link";
 import { Nft } from "./Nft";
 import { Job } from "./Job";
+import { ButtonContext } from "@/Hooks/BtnContext";
 
 
 export const MobileHome = () => {
+
+  const contextValue = useContext(ButtonContext);
+
+  if (!contextValue) {
+    // Handle the case where contextValue is undefined
+    return null;
+  }
+
+  const { veiwAs, toggleView } = contextValue;
   return (
     <div>
-      <div className="b_gradient2 h-fit w-[100dvw] ">
+      {/* <div className="b_gradient2 h-fit w-[100dvw] "> */}
+      <div className={veiwAs ? 'b_gradient h-fit w-[100dvw]' : 'b_gradient2 h-fit w-[100dvw]'}>
         <div className="flex absolute top-0 bottom-0 left-0 right-0   h-[100dvh] w-[100vw] ">
           <div className="w-fit ml-auto pt-5 h-fit mb-1">
             <Image
@@ -40,7 +49,7 @@ export const MobileHome = () => {
             />
           </div>
         </div>
-        <div className="h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" />
+        <div className={veiwAs ? "h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" : "h-[100dvh] w-[100dvw] absolute b_gradient2 opacity-50"} />
         <div className="relative bg-transparent flex flex-col pt-3 w-full h-[29vh]">
           <div className="w-[95%] mx-auto pt-1">
             <div className="flex justify-between mx-auto relative">
@@ -52,7 +61,9 @@ export const MobileHome = () => {
                 height={25}
                 priority
               />
-              <p className="flex font-semibold items-center gap-1 text-black">
+              <p 
+                onClick={toggleView}
+              className="flex cursor-pointer font-semibold items-center gap-1 text-black">
                 View as
                 <MdOutlineKeyboardArrowDown />
               </p>
