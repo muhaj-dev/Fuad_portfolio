@@ -444,9 +444,9 @@ export const Job = () => {
             </div>
             <div className="flex w-[65%] items-center">
               <div className="ml-2">
-                <p className="text-[18px] font-[500]">Food & reservation app</p>
+                <p className="text-[16px] font-[500]"> Forrest Jump</p>
                 <p className="text-t_blue text-[14px] font-[500]">
-                  Forrest Jump
+                Food & reservation app
                 </p>
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
@@ -465,8 +465,8 @@ export const Job = () => {
             </div>
             <div className="flex w-[65%] items-center">
               <div className="ml-2">
-                <p className="text-[18px] font-[500]">E-commerce website</p>
-                <p className="text-t_blue text-[14px] font-[500]">Personal</p>
+                <p className="text-[16px] font-[500]">Spaac.com</p>
+                <p className="text-t_blue text-[14px] font-[500]">E-commerce</p>
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
             </div>
@@ -484,7 +484,7 @@ export const Job = () => {
             </div>
             <div className="flex w-[65%] items-center">
               <div className="ml-2">
-                <p className="text-[18px] font-[500]">Ai Learning</p>
+                <p className="text-[16px] font-[500]">Ai Learning</p>
                 <p className="text-t_blue text-[14px] font-[500]">
                   School project
                 </p>
@@ -505,7 +505,7 @@ export const Job = () => {
             </div>
             <div className="flex w-[65%] items-center">
               <div className="ml-2">
-                <p className="text-[18px] font-[500]">Car hiring App</p>
+                <p className="text-[16px] font-[500]">Car hiring App</p>
                 <p className="text-t_blue text-[14px] font-[500]">
                   Fun project
                 </p>
@@ -526,7 +526,7 @@ export const Job = () => {
             </div>
             <div className="flex w-[65%] items-center">
               <div className="ml-2">
-                <p className="text-[18px] font-[500]">Product Page</p>
+                <p className="text-[16px] font-[500]">Product Page</p>
                 <p className="text-t_blue text-[14px] font-[500]">Fun Page</p>
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
