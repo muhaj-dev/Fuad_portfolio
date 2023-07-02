@@ -3,6 +3,7 @@
 import React, { useContext } from "react";
 import Image from "next/image";
 import profile2 from "../../../public/img/profile2.svg";
+import profile3 from "../../../public/img/profile3.png";
 import menu from "../../../public/img/menu.svg";
 import sect from "../../../public/img/sect.svg";
 import fuad from "../../../public/img/fuad.svg";
@@ -39,7 +40,8 @@ export const MobileHome = () => {
       <div className={veiwAs ? 'b_gradient h-fit w-[100dvw]' : 'b_gradient2 h-fit w-[100dvw]'}>
         <div className="flex absolute top-0 bottom-0 left-0 right-0   h-[100dvh] w-[100vw] ">
           <div className="w-fit ml-auto pt-5 h-fit mb-1">
-            <Image
+            {veiwAs ?
+             <Image
               src={profile2}
               className=""
               alt="lang"
@@ -47,6 +49,16 @@ export const MobileHome = () => {
               height={470}
               priority
             />
+          :
+          <Image
+              src={profile3}
+              className=""
+              alt="lang"
+              width={230}
+              height={470}
+              priority
+            />
+          }
           </div>
         </div>
         <div className={veiwAs ? "h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" : "h-[100dvh] w-[100dvw] absolute b_gradient2 opacity-50"} />
@@ -64,7 +76,7 @@ export const MobileHome = () => {
               <p 
                 onClick={toggleView}
               className="flex cursor-pointer font-semibold items-center gap-1 text-black">
-                View as {veiwAs ? 'Web Designer' : 'Crypto Expert'}
+                View as {veiwAs ? 'web designer' : 'crypto expert'}
                 {/* <MdOutlineKeyboardArrowDown /> */}
               </p>
             </div>
