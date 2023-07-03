@@ -76,32 +76,12 @@ export const MobileHome = () => {
                 height={25}
                 priority
               />
-              <p 
+              {/* <p 
                 onClick={toggleView}
               className="flex cursor-pointer font-semibold items-center gap-1 text-black">
                 View as {veiwAs ? 'web designer' : 'crypto expert'}
+              </p> */}
                 {/* <MdOutlineKeyboardArrowDown /> */}
-              </p>
-              {/* <div className="relative inline-block text-left">
-  <div>
-    <button type="button" className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-transparent px-3 py-2 text-sm font-semibold text-primary" id="menu-button" aria-expanded="true" aria-haspopup="true">
-    View as {veiwAs ? 'web designer' : 'crypto expert'}
-      <svg className="-mr-1 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-      </svg>
-    </button>
-  </div>
-  <div className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" >
-    <div className="py-1" role="none">
-      <p 
-        onClick={viewCt}
-        className="text-gray-700 block px-4 py-2 text-sm" role="menuitem"  id="menu-item-0">ct</p>
-      <p 
-        onClick={viewUx}
-      className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" id="menu-item-1">Ux</p>
-    </div>
-  </div>
-</div> */}
 
 <div className=" top-16 w-56 text-right">
       <Menu as="div" className="relative inline-block text-left">
