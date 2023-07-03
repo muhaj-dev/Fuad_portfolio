@@ -160,7 +160,7 @@ export const MobileHome = () => {
                 </p>
               </div>
               <div className="relative border-[2px] w-fit h-fit border-primary rounded-full">
-                <Image src={fuad} alt="lang" width={30} height={30}  />
+                <Image src={fuad} alt="lang" width={40} height={40}  />
                 <div className="absolute -bottom-[5px] right-0 border-[3px] w-fit h-fit border-primary rounded-full">
                 <Image src={fuad} alt="lang" width={10} height={10}  />
                
@@ -168,7 +168,7 @@ export const MobileHome = () => {
               </div>
             </div>
 
-            <div className="w-[60%] my-4 flex justify-between px-2 ">
+            <div className="w-[60%] my-3 flex justify-between px-2 ">
               <Link href="/" className="h-fit my-auto">
                 <AiOutlineTwitter className="text-primary w-[1.15rem] h-[1.15rem] " />
               </Link>
