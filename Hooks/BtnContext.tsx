@@ -7,6 +7,8 @@ interface ButtonContextType {
   veiwAs: boolean;
   toggleButton: () => void;
   toggleView: () => void;
+  viewUx: () => void;
+  viewCt: () => void;
 }
 
 export const ButtonContext = createContext<ButtonContextType | undefined>(undefined);
@@ -26,12 +28,20 @@ export const ButtonProvider: React.FC<ButtonProviderProps> = ({ children }) => {
   const toggleView = () => {
     setVeiwAs(prevState => !prevState);
   };
+  const viewUx = () => {
+    setVeiwAs(false);
+  };
+  const viewCt = () => {
+    setVeiwAs(true);
+  };
 
   const contextValue: ButtonContextType = {
     buttonState,
     toggleButton,
     veiwAs,
     toggleView,
+    viewUx,
+    viewCt,
   };
 
   return (

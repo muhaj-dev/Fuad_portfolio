@@ -1,6 +1,9 @@
 
 
 import React, { useContext } from "react";
+import { Menu, Transition } from '@headlessui/react'
+import { Fragment, useEffect, useRef, useState } from 'react'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import Image from "next/image";
 import profile2 from "../../../public/img/profile2.svg";
 import profile3 from "../../../public/img/profile3.png";
@@ -33,7 +36,7 @@ export const MobileHome = () => {
     return null;
   }
 
-  const { veiwAs, toggleView } = contextValue;
+  const { veiwAs, toggleView, viewUx, viewCt } = contextValue;
   return (
     <div>
       {/* <div className="b_gradient2 h-fit w-[100dvw] "> */}
@@ -79,6 +82,82 @@ export const MobileHome = () => {
                 View as {veiwAs ? 'web designer' : 'crypto expert'}
                 {/* <MdOutlineKeyboardArrowDown /> */}
               </p>
+              {/* <div className="relative inline-block text-left">
+  <div>
+    <button type="button" className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-transparent px-3 py-2 text-sm font-semibold text-primary" id="menu-button" aria-expanded="true" aria-haspopup="true">
+    View as {veiwAs ? 'web designer' : 'crypto expert'}
+      <svg className="-mr-1 h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+      </svg>
+    </button>
+  </div>
+  <div className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" >
+    <div className="py-1" role="none">
+      <p 
+        onClick={viewCt}
+        className="text-gray-700 block px-4 py-2 text-sm" role="menuitem"  id="menu-item-0">ct</p>
+      <p 
+        onClick={viewUx}
+      className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" id="menu-item-1">Ux</p>
+    </div>
+  </div>
+</div> */}
+
+<div className=" top-16 w-56 text-right">
+      <Menu as="div" className="relative inline-block text-left">
+        <div>
+        <Menu.Button className="inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+            Veiw as
+            <ChevronDownIcon
+              className="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
+              aria-hidden="true"
+            />
+          </Menu.Button>
+        </div>
+        <Transition
+          as={Fragment}
+          enter="transition ease-out duration-100"
+          enterFrom="transform opacity-0 scale-95"
+          enterTo="transform opacity-100 scale-100"
+          leave="transition ease-in duration-75"
+          leaveFrom="transform opacity-100 scale-100"
+          leaveTo="transform opacity-0 scale-95"
+        >
+        {/* <div className={veiwAs ? "h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" : "h-[100dvh] w-[100dvw] absolute b_gradient2 opacity-50"} /> */}
+        <Menu.Items className="absolute right-0 mt-2 w-[6.9rem] origin-top-right divide-y divide-gray-100 rounded-md bg-black bg-opacity-40 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+          {/* <Menu.Items className="absolute h-[33dvh] w-[100dvw] -right-[0.8rem]   origin-top-right rounded-md bg-transparent  shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"> */}
+            <div className="">
+              { veiwAs ? <Menu.Item>
+                {({ active }) => (
+                  <button
+                  onClick={viewUx}
+                    className={`${
+                      active ? 'bg-primary hover:bg-opacity-70 text-white' : 'text-white'
+                    } group flex w-full items-center rounded-md p-3 text-[12px]`}
+                  >
+                    web designer
+                  </button>
+                )}
+              </Menu.Item>
+              :
+              <Menu.Item>
+                {({ active }) => (
+                  <button
+                  onClick={viewCt}
+                    className={`${
+                      active ? 'bg-primary hover:bg-opacity-70 text-white' : 'text-white'
+                    } group flex w-full items-center rounded-md p-3 text-[12px]`}
+                  >
+                crypto expert
+                  </button>
+                )}
+              </Menu.Item>}
+            </div>           
+          </Menu.Items>
+        </Transition>
+      </Menu>
+    </div>
+
             </div>
             <p className="my-3 text-[2.25rem] font-bold text-[#0B0E21]">
               cryptolead_
@@ -101,9 +180,9 @@ export const MobileHome = () => {
                 </p>
               </div>
               <div className="relative border-[2px] w-fit h-fit border-primary rounded-full">
-                <Image src={fuad} alt="lang" width={30} height={30} priority />
+                <Image src={fuad} alt="lang" width={30} height={30}  />
                 <div className="absolute -bottom-[5px] right-0 border-[3px] w-fit h-fit border-primary rounded-full">
-                <Image src={fuad} alt="lang" width={10} height={10} priority />
+                <Image src={fuad} alt="lang" width={10} height={10}  />
                
               </div>
               </div>
