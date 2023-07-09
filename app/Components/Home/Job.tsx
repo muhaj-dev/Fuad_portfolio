@@ -44,7 +44,8 @@ export const Job = () => {
         <p className="text-[#068C95] text-[24px] font-[600]">Job Experience</p>
       </div>
 
-     { veiwAs ? <div>
+     { veiwAs ? 
+     <div>
         <ul ref={ref} className="hidden tablet_l:flex">
           <li>
             <div className="basis-fit">
@@ -182,8 +183,11 @@ export const Job = () => {
             </div>
           </li>
         </ul>
-        <div className="tablet_l:hidden w-full mt-5 flex flex-col gap-4 ">
-          <div className="flex">
+        <div 
+        
+          className="tablet_l:hidden w-full mt-5 flex flex-col gap-4 ">
+          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+         transition={{ duration: 0.7 }} className="flex">
             <div className="h-[5rem] overflow-y-hidden rounded-[0.625rem]">
               <Image
                 src={vahalla}
@@ -203,8 +207,10 @@ export const Job = () => {
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
             </div>
-          </div>
-          <div className="flex">
+          </motion.div>
+          <motion.div
+           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+           transition={{ duration: 0.7 }} className="flex">
             <div className="h-[5rem] overflow-y-hidden rounded-[0.625rem]">
               <Image
                 src={listo}
@@ -224,8 +230,10 @@ export const Job = () => {
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
             </div>
-          </div>
-          <div className="flex">
+          </motion.div>
+          <motion.div
+           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+           transition={{ duration: 0.7 }} className="flex">
             <div className="h-[5rem] overflow-y-hidden rounded-[0.625rem]">
               <Image
                 src={bibox}
@@ -245,8 +253,10 @@ export const Job = () => {
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
             </div>
-          </div>
-          <div className="flex">
+          </motion.div>
+          <motion.div 
+            whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+            transition={{ duration: 0.7 }} className="flex">
             <div className="h-[5rem] overflow-y-hidden rounded-[0.625rem]">
               <Image
                 src={think}
@@ -266,8 +276,10 @@ export const Job = () => {
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
             </div>
-          </div>
-          <div className="flex">
+          </motion.div>
+          <motion.div
+           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+           transition={{ duration: 0.7 }} className="flex">
             <div className="h-[5rem] overflow-y-hidden rounded-[0.625rem]">
               <Image
                 src={inge}
@@ -287,7 +299,7 @@ export const Job = () => {
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
       :
@@ -430,8 +442,12 @@ export const Job = () => {
           </li>
         </ul>
 
-        <div className="tablet_l:hidden w-full mt-5 flex flex-col gap-4 ">
-          <div className="flex">
+        <div
+         
+        className="tablet_l:hidden w-full mt-5 flex flex-col gap-4 ">
+          <motion.div 
+          whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+          transition={{ duration: 0.7 }} className="flex">
             <div className="h-[5rem] overflow-y-hidden rounded-[0.625rem]">
               <Image
                 src={food}
@@ -451,8 +467,9 @@ export const Job = () => {
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
             </div>
-          </div>
-          <div className="flex">
+          </motion.div>
+          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+         transition={{ duration: 0.7 }} className="flex">
             <div className="h-[5rem] overflow-y-hidden rounded-[0.625rem]">
               <Image
                 src={Ecommerce}
@@ -470,8 +487,10 @@ export const Job = () => {
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
             </div>
-          </div>
-          <div className="flex">
+          </motion.div>
+          <motion.div 
+          whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+          transition={{ duration: 0.7 }} className="flex">
             <div className="h-[5rem] overflow-y-hidden rounded-[0.625rem]">
               <Image
                 src={AiLearning}
@@ -491,8 +510,10 @@ export const Job = () => {
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
             </div>
-          </div>
-          <div className="flex">
+          </motion.div>
+          <motion.div
+          whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+          transition={{ duration: 0.7 }} className="flex">
             <div className="h-[5rem] overflow-y-hidden rounded-[0.625rem]">
               <Image
                 src={car}
@@ -512,8 +533,10 @@ export const Job = () => {
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
             </div>
-          </div>
-          <div className="flex">
+          </motion.div>
+          <motion.div
+          whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+          transition={{ duration: 0.7 }} className="flex">
             <div className="h-[5rem] overflow-y-hidden rounded-[0.625rem]">
               <Image
                 src={product}
@@ -531,7 +554,7 @@ export const Job = () => {
               </div>
               <AiOutlineArrowRight className="text-light_blue ml-auto w-[35px] h-[25px] font-bold" />
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
       }

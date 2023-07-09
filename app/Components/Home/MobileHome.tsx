@@ -103,9 +103,7 @@ export const MobileHome = () => {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-        {/* <div className={veiwAs ? "h-[100dvh] w-[100dvw] absolute b_gradient opacity-50" : "h-[100dvh] w-[100dvw] absolute b_gradient2 opacity-50"} /> */}
-        <Menu.Items className="absolute right-0 mt-2 w-[6.9rem] origin-top-right divide-y divide-gray-100 rounded-md bg-black bg-opacity-40 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-          {/* <Menu.Items className="absolute h-[33dvh] w-[100dvw] -right-[0.8rem]   origin-top-right rounded-md bg-transparent  shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"> */}
+        <Menu.Items className="absolute right-0 mt-0 w-[6.9rem] origin-top-right divide-y divide-gray-100 rounded-md bg-black bg-opacity-40 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
             <div className="">
               { veiwAs ? <Menu.Item>
                 {({ active }) => (
@@ -229,3 +227,5 @@ export const MobileHome = () => {
     </div>
   );
 };
+
+

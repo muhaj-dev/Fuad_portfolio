@@ -147,7 +147,7 @@ export default function Home() {
                 className="cursor-pointer beep z-30 w-full bottom-6 fixed "
               >
                 <IoMdArrowUp className=" mx-auto w-[1.5rem] h-[2rem] text-light_blue" />
-                <p className="text-center text-light_blue">Sypte up</p>
+                <p className="text-center text-light_blue">Swipe up</p>
               </div>
               {/* <div className="absolute bg-[#0B0E21] -bottom-[126px] h-[8rem] w-[100dvw]"/> */}
             </div>

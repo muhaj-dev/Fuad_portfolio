@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useContext } from "react";
+import { motion } from "framer-motion";
 import fuad from "../../../public/img/fuad.svg";
 import twitter from "../../../public/img/twi.svg";
 import iinsta from "../../../public/img/iinsta.svg";
@@ -27,7 +28,22 @@ export const Profile = () => {
       {buttonState && (
         <>
           <div className=" laptop:block hidden relative w-[14rem] right-1">
-            <div className="fixed w-[14rem] h-[96.75vh] max-h-[720px]  bg-primary border-light_blue border-[2px] rounded-lg">
+            <motion.div
+              // className="box"
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.3,
+                ease: [0, 0.71, 0.2, 1.01],
+                scale: {
+                  type: "spring",
+                  damping: 5,
+                  stiffness: 100,
+                  restDelta: 0.001,
+                },
+              }}
+              className="fixed w-[14rem] h-[96.75vh] max-h-[720px] bg-primary border-light_blue border-[2px] rounded-lg"
+            >
               <p className=" text-center text-[22px] font-bold mt-2">
                 My Profile
               </p>
@@ -208,14 +224,27 @@ export const Profile = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </>
       )}
 
-{!buttonState && (
+      {!buttonState && (
         <>
-          <div className=" flex z-50 laptop:hidden top-0 right-0 left-0 item-center justify-center fixed w-[100vw] h-[100%]">
+          <motion.div
+          // className="box"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.3,
+            ease: [0, 0.71, 0.2, 1.01],
+            scale: {
+              type: "spring",
+              damping: 5,
+              stiffness: 100,
+              restDelta: 0.001,
+            },
+          }} className=" flex z-50 laptop:hidden top-0 right-0 left-0 item-center justify-center fixed w-[100vw] h-[100%]">
             <div className="relative w-[16rem] z-10 my-auto h-[97vh] max-h-[720px]  bg-primary border-light_blue border-[2px] rounded-lg">
               <p className=" text-center text-[22px] font-bold mt-2">
                 My Profile
@@ -296,22 +325,22 @@ export const Profile = () => {
                 </div>
 
                 <div className="flex px-3 py-2 justify-between border-[2px] mt-1 rounded-md border-[#494F99] ">
-                    <div className="flex items-center gap-1">
-                      <Image
-                        src={twitter}
-                        className="mx-auto rounded-full p-1 z-20 bg-primary"
-                        alt="lang"
-                        width={25}
-                        height={20}
-                        priority
-                      />
-                      <p className="text-[12px]">open to work</p>
-                    </div>
-                    <button className="text-[#D9D9D9] text-[12px] flex gap-1 items-center">
-                      hire
-                      <TbMathGreater className="text-light_blue w-[10px]" />
-                    </button>
+                  <div className="flex items-center gap-1">
+                    <Image
+                      src={twitter}
+                      className="mx-auto rounded-full p-1 z-20 bg-primary"
+                      alt="lang"
+                      width={25}
+                      height={20}
+                      priority
+                    />
+                    <p className="text-[12px]">open to work</p>
                   </div>
+                  <button className="text-[#D9D9D9] text-[12px] flex gap-1 items-center">
+                    hire
+                    <TbMathGreater className="text-light_blue w-[10px]" />
+                  </button>
+                </div>
 
                 <div>
                   <div className="flex justify-between items-center">
@@ -405,7 +434,7 @@ export const Profile = () => {
                 className="cursor-pointer h-[2rem] w-[2rem] mt-4 ml-4"
               />
             </p>
-          </div>
+          </motion.div>
         </>
       )}
     </>
